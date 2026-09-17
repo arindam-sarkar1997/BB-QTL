@@ -1,0 +1,30 @@
+# Track source, notebooks, documentation, and configuration across the workspace.
+# Data, analysis results, logs, figures, archives, and binaries stay local.
+*
+!*/
+!*.py
+!*.ipynb
+!*.sh
+!*.R
+!*.r
+!*.Rmd
+!*.m
+!*.cpp
+!*.h
+!*.hpp
+!*.md
+!*.yml
+!*.yaml
+!*.toml
+!*.ini
+!*.cfg
+!*.json
+!Makefile
+!Dockerfile
+!.gitignore
+!.gitmodules
+!.gitattributes
+
+# Generated notebook and Python files.
+.ipynb_checkpoints/
+__pycache__/

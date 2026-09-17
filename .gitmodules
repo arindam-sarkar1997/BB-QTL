@@ -1,0 +1,6 @@
+[submodule "3_fitness_inference"]
+	path = 3_fitness_inference
+	url = https://github.com/cmarti/phenotypes.git
+[submodule "4_qtl_inference/polyfun"]
+	path = 4_qtl_inference/polyfun
+	url = https://github.com/omerwe/polyfun.git
