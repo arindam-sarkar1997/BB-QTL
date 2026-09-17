@@ -1,0 +1,899 @@
+Pathway_ID	Gene ID	Gene Accession	Gene name	Reaction id	Reaction EC	Enzymatic activity	Evidence
+PWY-6075-1	YML008C		ERG6	RXN3O-178	2.1.1.41	SAM:C-24 sterol methyltransferase	No Evidence Code
+PWY-6075-1	YMR202W		ERG2	RXN3O-203	No EC#	C-8 sterol isomerase	No Evidence Code
+PWY-6075-1	YLR056W		ERG3	RXN3O-9827	No EC#	C-5 sterol desaturase	No Evidence Code
+PWY-6075-1	YMR015C		ERG5	RXN3O-9828	No EC#	C-22 sterol desaturase	No Evidence Code
+PWY-6075-1	YGL012W		ERG4	1.3.1.71-RXN	1.3.1.71	C-24 sterol reductase	No Evidence Code
+PWY3O-1874	YNR033W		ABZ1	PABASYN-RXN	2.6.1.85	aminodeoxychorismate synthase	No Evidence Code
+PWY3O-1874	G3O-84		ABZ2	ADCLY-RXN	4.1.3.38	aminodeoxychorismate lyase	No Evidence Code
+PWY3O-31704	YJL167W		ERG20	GPPSYN-RXN	2.5.1.1	farnesyl diphosphate synthetase	No Evidence Code
+PWY3O-31704	YJL167W		ERG20	FPPSYN-RXN	2.5.1.10	farnesyl diphosphate synthetase	No Evidence Code
+PWY3O-31704	YHR190W		ERG9	RXN-12263	2.5.1.103	squalene synthase	EV-EXP
+PWY3O-31704	YHR190W		ERG9	RXN66-281	No EC#	squalene synthase	EV-EXP
+PWY3O-31704	YGR175C		ERG1	SQUALENE-MONOOXYGENASE-RXN	1.14.14.17	squalene monooxygenase	No Evidence Code
+PWY3O-31704	YHR072W		ERG7	LANOSTEROL-SYNTHASE-RXN	5.4.99.7	2,3-oxidosqualene-lanosterol cyclase	No Evidence Code
+PWY3O-31704	YHR007C		ERG11	RXN3O-130	1.14.14.154	cytochrome P450 lanosterol 14a-demethylase	No Evidence Code
+PWY3O-31704	YNL280C		ERG24	RXN66-306	1.3.1.70	C-14 sterol reductase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-310	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-311	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-312	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGL001C		ERG26	RXN66-313	1.1.1.170	C-3 sterol dehydrogenase	No Evidence Code
+PWY3O-31704	YLR100W		ERG27	RXN66-314	1.1.1.270	3-keto sterol reductase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-315	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-316	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGR060W		ERG25	RXN66-317	No EC#	methylsterol monooxygenase	No Evidence Code
+PWY3O-31704	YGL001C		ERG26	RXN66-318	1.1.1.170	C-3 sterol dehydrogenase	No Evidence Code
+PWY3O-31704	YLR100W		ERG27	RXN66-319	1.1.1.270	3-keto sterol reductase	No Evidence Code
+PWY3O-31704	YML008C		ERG6	RXN3O-178	2.1.1.41	SAM:C-24 sterol methyltransferase	No Evidence Code
+PWY3O-31704	YMR202W		ERG2	RXN3O-203	No EC#	C-8 sterol isomerase	No Evidence Code
+PWY3O-31704	YLR056W		ERG3	RXN3O-218	1.14.19.20	C-5 sterol desaturase	No Evidence Code
+PWY3O-31704	YMR015C		ERG5	RXN3O-227	1.14.19.41	C-22 sterol desaturase	No Evidence Code
+PWY3O-31704	YGL012W		ERG4	1.3.1.71-RXN	1.3.1.71	C-24 sterol reductase	No Evidence Code
+PWY-6132	YHR072W		ERG7	LANOSTEROL-SYNTHASE-RXN	5.4.99.7	2,3-oxidosqualene-lanosterol cyclase	No Evidence Code
+PWY3O-4112	YJR148W		BAT2	BRANCHED-CHAINAMINOTRANSFERLEU-RXN	2.6.1.6/2.6.1.42	branched-chain amino acid transaminase	No Evidence Code
+PWY3O-4112	YHR208W		BAT1	BRANCHED-CHAINAMINOTRANSFERLEU-RXN	2.6.1.6/2.6.1.42	branched-chain amino acid aminotransferase	No Evidence Code
+PWY3O-4112	YDL080C		THI3	RXN3O-4108	4.1.1.1	ketoisocaproate decarboxylase	No Evidence Code
+PWY3O-4112	YDR380W		ARO10	RXN3O-4108	4.1.1.1	decarboxylase	No Evidence Code
+PWY3O-4112	YDL168W		SFA1	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4112	YBR145W		ADH5	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4112	YGL256W		ADH4	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4112	YMR083W		ADH3	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4112	YMR303C		ADH2	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4112	YOL086C		ADH1	RXN3O-4109	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY-6074-1	YHR007C		ERG11	RXN3O-9820	1.14.13.70	cytochrome P450 lanosterol 14a-demethylase	No Evidence Code
+PWY-6074-1	YNL280C		ERG24	RXN66-306	1.3.1.70	C-14 sterol reductase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9821	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9822	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9823	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGL001C		ERG26	RXN66-313	1.1.1.170	C-3 sterol dehydrogenase	No Evidence Code
+PWY-6074-1	YLR100W		ERG27	RXN66-314	1.1.1.270	3-keto sterol reductase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9824	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9825	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGR060W		ERG25	RXN3O-9826	1.14.13.72	methylsterol monooxygenase	No Evidence Code
+PWY-6074-1	YGL001C		ERG26	RXN66-318	1.1.1.170	C-3 sterol dehydrogenase	No Evidence Code
+PWY-6074-1	YLR100W		ERG27	RXN66-319	1.1.1.270	3-keto sterol reductase	No Evidence Code
+PWY3O-31723	YPL231W		FAS2	FATTY-ACYL-COA-SYNTHASE-RXN	2.3.1.86	fatty acyl-CoA synthase	No Evidence Code
+PWY3O-31723	YKL182W		FAS1	FATTY-ACYL-COA-SYNTHASE-RXN	2.3.1.86	fatty acyl-CoA synthase	No Evidence Code
+PWY-6147	YGR267C		FOL2	GTP-CYCLOHYDRO-I-RXN	3.5.4.16	GTP-cyclohydrolase I	No Evidence Code
+PWY-6147	YNL256W		FOL1	H2NEOPTERINALDOL-RXN	4.1.2.25	dihydroneopterin aldolase	No Evidence Code
+PWY-6147	YNL256W		FOL1	H2PTERIDINEPYROPHOSPHOKIN-RXN	2.7.6.3	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase	No Evidence Code
+PWY3O-10	YKL182W		FAS1	ACP-S-ACETYLTRANSFER-RXN	2.3.1.38/2.3.1.85/2.3.1.86	acetyl transferase	EV-EXP
+PWY3O-10	YNR016C		ACC1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-CoA carboxylase	EV-EXP
+PWY3O-10	YMR207C		HFA1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-coenzyme A carboxylase	No Evidence Code
+PWY3O-10	YKL182W		FAS1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl transferase	EV-EXP
+PWY3O-10	YOR221C		MCT1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl-CoA:ACP transferase	No Evidence Code
+PWY3O-10	YPL231W		FAS2	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	acetoacetyl-ACP synthase	EV-EXP
+PWY3O-10	YER061C		CEM1	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-10	YKL055C		OAR1	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-10	YPL231W		FAS2	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	acetoacetyl-[acp]:NADPH+ oxidoreductase	EV-EXP
+PWY3O-10	YKL182W		FAS1	4.2.1.58-RXN	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxybutanoyl-[acp] dehydratase	EV-EXP
+PWY3O-10	YKL182W		FAS1	RXN-9515	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	crotonyl-[acp] reductase	EV-EXP
+PWY3O-697	YGR204W		ADE3	METHYLENETHFDEHYDROG-NADP-RXN	1.5.1.5	tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YBR084W		MIS1	METHYLENETHFDEHYDROG-NADP-RXN	1.5.1.5	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YGR204W		ADE3	METHENYLTHFCYCLOHYDRO-RXN	3.5.4.9	tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YBR084W		MIS1	METHENYLTHFCYCLOHYDRO-RXN	3.5.4.9	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YBR084W		MIS1	FORMATETHFLIG-RXN	6.3.4.3	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YGR204W		ADE3	FORMATETHFLIG-RXN	6.3.4.3	C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-697	YLR058C		SHM2	GLYOHMETRANS-RXN	2.1.2.1	serine hydroxymethyltransferase	No Evidence Code
+PWY3O-697	YBR263W		SHM1	GLYOHMETRANS-RXN	2.1.2.1	Serine hydroxymethyltransferase, mitochondrial	No Evidence Code
+PWY3O-697	YOR074C		CDC21	THYMIDYLATESYN-RXN	2.1.1.45	thymidylate synthase	No Evidence Code
+PWY3O-697	YOR236W		DFR1	DIHYDROFOLATEREDUCT-RXN	1.5.1.3	dihydrofolate reductase	No Evidence Code
+PWY3O-697	G3O-163		GCV3	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY3O-697	YDR019C		GCV1	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY3O-697	YMR189W		GCV2	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY3O-697	YFL018C		LPD1	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY3O-697	YPL023C		MET12	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY3O-697	YGL125W		MET13	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY3O-697	YKR080W		MTD1	1.5.1.15-RXN	1.5.1.15	NAD-dependent 5,10-methylenetetrahydrafolate dehydrogenase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9516	2.3.1.41/2.3.1.179	beta-ketohexanoyl-[acp] synthase	EV-EXP
+PWY-5971-1	YKL055C		OAR1	RXN-9518	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9518	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9520	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxyhexanoyl-[acp] dehydratase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9521	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	hexenoyl-[acp] reductase (NADPH)	EV-EXP
+PWY-5971-1	YPL231W		FAS2	RXN-9523	2.3.1.41/2.3.1.179	beta-ketooctanoyl-[acp] synthase	EV-EXP
+PWY-5971-1	YKL055C		OAR1	RXN-9524	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9524	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	4.2.1.59-RXN	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxyoctanoyl-[acp] dehydratase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9526	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	octenoyl-[acp] reductase (NADPH)	EV-EXP
+PWY-5971-1	YPL231W		FAS2	RXN-9527	2.3.1.41/2.3.1.179	beta-ketodecanoyl-[acp] synthase	EV-EXP
+PWY-5971-1	YKL055C		OAR1	RXN-9528	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9528	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9655	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxydecanoyl-[acp] dehydratase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9530	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	decenoyl-[acp] reductase	EV-EXP
+PWY-5971-1	YPL231W		FAS2	RXN-9531	2.3.1.41/2.3.1.179	beta-ketododecanyoly-[acp] synthase	EV-EXP
+PWY-5971-1	YKL055C		OAR1	RXN-9532	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9532	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9533	2.3.1.85/2.3.1.86/4.2.1.59	hydroxydodecanoyl-[acp] dehydratase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9534	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	docecenoyl-[acp] reductase	EV-EXP
+PWY-5971-1	YPL231W		FAS2	RXN-9535	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-ketomeristoyl-[acp] synthase	EV-EXP
+PWY-5971-1	YKL055C		OAR1	RXN-9536	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY-5971-1	YPL231W		FAS2	RXN-9536	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9537	4.2.1.61/2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxymyristoyl-[acp] dehydratase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN-9538	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	myristoyl-[acp] reductase	EV-EXP
+PWY-5971-1	YKL182W		FAS1	RXN3O-8214	2.3.1.-	myristoyl transferase	EV-AS
+PWY-5971-1	YJR019C		TES1	RXN-9626	3.1.2.2	Thioesterase	No Evidence Code
+PWY3O-45	YNR033W		ABZ1	PABASYN-RXN	2.6.1.85	aminodeoxychorismate synthase	No Evidence Code
+PWY3O-45	YGR267C		FOL2	GTP-CYCLOHYDRO-I-RXN	3.5.4.16	GTP-cyclohydrolase I	No Evidence Code
+PWY3O-45	YNL256W		FOL1	H2NEOPTERINALDOL-RXN	4.1.2.25	dihydroneopterin aldolase	No Evidence Code
+PWY3O-45	YNL256W		FOL1	H2PTERIDINEPYROPHOSPHOKIN-RXN	2.7.6.3	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase	No Evidence Code
+PWY3O-45	G3O-84		ABZ2	ADCLY-RXN	4.1.3.38	aminodeoxychorismate lyase	No Evidence Code
+PWY3O-45	YNL256W		FOL1	H2PTEROATESYNTH-RXN	2.5.1.15	dihydro-6-hydroxymethylpterin pyrophosphokinase	No Evidence Code
+PWY3O-45	YMR113W		FOL3	DIHYDROFOLATESYNTH-RXN	6.3.2.12	dihydrofolate synthase	No Evidence Code
+PWY3O-45	YOR236W		DFR1	DIHYDROFOLATEREDUCT-RXN	1.5.1.3	dihydrofolate reductase	No Evidence Code
+PWY-5080-1	G3O-14		ELO3	RXN3O-9811	2.3.1.-	3-ketoacyl-CoA synthase	No Evidence Code
+PWY-5080-1	YCR034W		ELO2	RXN3O-9811	2.3.1.-	3-ketoacyl-CoA synthase	No Evidence Code
+PWY-5080-1	G3O-25		IFA38	RXN3O-9812	1.1.1.36	beta-ketoacyl reductase	No Evidence Code
+PWY-5080-1	G3O-33		PHS1	RXN3O-9813	4.2.1.17	3-hydroxyacyl-CoA dehydratase	No Evidence Code
+PWY-5080-1	G3O-39		TSC13	RXN3O-9814	1.3.1.93	enoyl-CoA reductase	No Evidence Code
+PWY3O-20	YOR241W		MET7	RXN3O-681	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY3O-20	YOR236W		DFR1	DIHYDROFOLATEREDUCT-RXN	1.5.1.3	dihydrofolate reductase	No Evidence Code
+PWY3O-20	YOR241W		MET7	FOLYLPOLYGLUTAMATESYNTH-RXN	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY3O-20	YLR058C		SHM2	GLYOHMETRANS-RXN	2.1.2.1	serine hydroxymethyltransferase	No Evidence Code
+PWY3O-20	YBR263W		SHM1	GLYOHMETRANS-RXN	2.1.2.1	Serine hydroxymethyltransferase, mitochondrial	No Evidence Code
+PWY3O-20	YOR241W		MET7	RXN0-2921	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY3O-20	YPL023C		MET12	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY3O-20	YGL125W		MET13	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY3O-20	YOR241W		MET7	RXN3O-22	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY3O-20	YBR084W		MIS1	FORMATETHFLIG-RXN	6.3.4.3	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-20	YGR204W		ADE3	FORMATETHFLIG-RXN	6.3.4.3	C1-tetrahydrofolate synthase	No Evidence Code
+PWY3O-20	YOR241W		MET7	FORMYLTHFGLUSYNTH-RXN	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY-6614	YNL256W		FOL1	H2PTEROATESYNTH-RXN	2.5.1.15	dihydro-6-hydroxymethylpterin pyrophosphokinase	No Evidence Code
+PWY-6614	YMR113W		FOL3	DIHYDROFOLATESYNTH-RXN	6.3.2.12	dihydrofolate synthase	No Evidence Code
+PWY-6614	YOR236W		DFR1	DIHYDROFOLATEREDUCT-RXN	1.5.1.3	dihydrofolate reductase	No Evidence Code
+PWY-6543	YNR033W		ABZ1	PABASYN-RXN	2.6.1.85	aminodeoxychorismate synthase	No Evidence Code
+PWY-6543	G3O-84		ABZ2	ADCLY-RXN	4.1.3.38	aminodeoxychorismate lyase	No Evidence Code
+PWY3O-238	YER091C		MET6	HOMOCYSMET-RXN	2.1.1.14	N5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase	No Evidence Code
+PWY3O-238	YOR241W		MET7	RXN3O-22	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY3O-64	G3O-114		MEU1	5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN	2.4.2.28	5'-methylthioadenosine phosphorylase	No Evidence Code
+PWY3O-64	G3O-111		MRI1	5.3.1.23-RXN	5.3.1.23	methylthioribose-1-phosphate isomerase	No Evidence Code
+PWY3O-64	G3O-132		MDE1	R145-RXN	4.2.1.109	methylthioribulose-1-phosphate dehydratase	No Evidence Code
+PWY3O-64	G3O-137		UTR4	3.1.3.77-RXN	3.1.3.77	2,3-dioxomethiopentane-1-phosphate enolase/phosphatase	No Evidence Code
+PWY3O-64	G3O-142		ADI1	R147-RXN	1.13.11.54	acireductone dioxygenase	No Evidence Code
+PWY3O-64	YJR148W		BAT2	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-64	YHR208W		BAT1	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-64	YGL202W		ARO8	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-64	YHR137W		ARO9	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-4106	G3O-4113		NRK1	RIBOSYLNICOTINAMIDE-KINASE-RXN	2.7.1.22	nicotinamide ribose kinase	No Evidence Code
+PWY3O-4106	YLR328W		NMA1	2.7.7.1-RXN	2.7.7.1	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4106	YGR010W		NMA2	2.7.7.1-RXN	2.7.7.1	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-236	YLR209C		PNP1	RXN3O-205	No EC#	nicotinic acid riboside phosphorylase	No Evidence Code
+PWY3O-236	YDR400W		URH1	RXN3O-214	No EC#	nicotinic acid riboside hydrolase	No Evidence Code
+PWY-5653	YFR047C		BNA6	QUINOPRIBOTRANS-RXN	2.4.2.19	Quinolinate phosphoribosyl transferase	No Evidence Code
+PWY-5653	YGR010W		NMA2	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY-5653	YLR328W		NMA1	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY-5653	YHR074W		QNS1	NAD-SYNTH-GLN-RXN	6.3.5.1	glutamine-dependent NAD synthase	No Evidence Code
+PWY-5340	YJR010W		MET3	SULFATE-ADENYLYLTRANS-RXN	2.7.7.4	ATP sulfurylase	No Evidence Code
+PWY-5340	YKL001C		MET14	ADENYLYLSULFKIN-RXN	2.7.1.25	adenylylsulfate kinase	No Evidence Code
+PWY3O-48	YOL059W		GPD2	1.1.1.8-RXN	1.1.1.8	glycerol-3-phosphate dehydrogenase (NAD+)	No Evidence Code
+PWY3O-48	YDL022W		GPD1	1.1.1.8-RXN	1.1.1.8	glycerol 3-phosphate dehydrogenase	No Evidence Code
+PWY3O-48	YIL053W		RHR2	GLYCEROL-1-PHOSPHATASE-RXN	3.1.3.21	DL-glycerol-3-phosphatase	No Evidence Code
+PWY3O-48	YER062C		HOR2	GLYCEROL-1-PHOSPHATASE-RXN	3.1.3.21	DL-glycerol-3-phosphatase	No Evidence Code
+PWY-5670-1	YHR190W		ERG9	RXN-12263	2.5.1.103	squalene synthase	EV-EXP
+PWY-5670-1	YHR190W		ERG9	RXN66-281	No EC#	squalene synthase	EV-EXP
+PWY-5670-1	YGR175C		ERG1	RXN3O-9816	1.14.14.17	squalene monooxygenase	No Evidence Code
+PWY3O-261	YFL030W		AGX1	ALANINE--GLYOXYLATE-AMINOTRANSFERASE-RXN	2.6.1.44	alanine:glyoxylate aminotransferase	No Evidence Code
+PWY3O-261	YEL046C		GLY1	THREONINE-ALDOLASE-RXN	4.1.2.5/4.1.2.48	threonine aldolase	No Evidence Code
+PWY3O-261	YIL074C		SER33	PGLYCDEHYDROG-RXN	1.1.1.95	3-phosphoglycerate dehydrogenase	No Evidence Code
+PWY3O-261	YER081W		SER3	PGLYCDEHYDROG-RXN	1.1.1.95	3-phosphoglycerate dehydrogenase	No Evidence Code
+PWY3O-261	YLR058C		SHM2	GLYOHMETRANS-RXN	2.1.2.1	serine hydroxymethyltransferase	No Evidence Code
+PWY3O-261	YBR263W		SHM1	GLYOHMETRANS-RXN	2.1.2.1	Serine hydroxymethyltransferase, mitochondrial	No Evidence Code
+PWY3O-261	YOR184W		SER1	PSERTRANSAM-RXN	2.6.1.52	phosphoserine transaminase	No Evidence Code
+PWY3O-261	YGR208W		SER2	RXN0-5114	3.1.3.3	phosphoserine phosphatase	No Evidence Code
+PWY3O-285	YML022W		APT1	ADENPRIBOSYLTRAN-RXN	2.4.2.7	adenine phosphoribosyltransferase	No Evidence Code
+PWY3O-285	YJR105W		ADO1	ADENOSINE-KINASE-RXN	2.7.1.20	adenosine kinase	No Evidence Code
+PWY3O-285	G3O-0		GUD1	GUANINE-DEAMINASE-RXN	3.5.4.3	guanine deaminase	EV-EXP
+PWY3O-285	YMR300C		ADE4	PRPPAMIDOTRANS-RXN	2.4.2.14	phosphoribosylpyrophosphate amidotransferase	No Evidence Code
+PWY3O-285	YGL234W		ADE5,7	GLYRIBONUCSYN-RXN	6.3.4.13	phosphoribosylglycinamidine synthetase	No Evidence Code
+PWY3O-285	YDR408C		ADE8	GART-RXN	2.1.2.2	glycinamide ribotide transformylase	No Evidence Code
+PWY3O-285	YGR061C		ADE6	FGAMSYN-RXN	6.3.5.3	5'-phosphoribosylformyl glycinamidine synthetase	No Evidence Code
+PWY3O-285	YGL234W		ADE5,7	AIRS-RXN	6.3.3.1	phopshoribosylaminoimidazole synthetase	No Evidence Code
+PWY3O-285	YOR128C		ADE2	AIRCARBOXY-RXN	4.1.1.21	phosphoribosylamino-imidazole-carboxylase	No Evidence Code
+PWY3O-285	YAR015W		ADE1	SAICARSYN-RXN	6.3.2.6	phosphoribosyl amino imidazolesuccinocarbozamide synthetase	No Evidence Code
+PWY3O-285	YLR359W		ADE13	AICARSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+PWY3O-285	YMR120C		ADE17	AICARTRANSFORM-RXN	2.1.2.3	5-aminoimidazole-4-carboxamide ribonucleotide transformylase	No Evidence Code
+PWY3O-285	YLR028C		ADE16	AICARTRANSFORM-RXN	2.1.2.3	5-aminoimidazole-4-carboxamide ribonucleotide transformylase	No Evidence Code
+PWY3O-285	YMR120C		ADE17	IMPCYCLOHYDROLASE-RXN	3.5.4.10	inosine monophosphate cyclohydrolase	No Evidence Code
+PWY3O-285	YLR028C		ADE16	IMPCYCLOHYDROLASE-RXN	3.5.4.10	inosine monophosphate cyclohydrolase	No Evidence Code
+PWY3O-285	YJR133W		XPT1	XANPRIBOSYLTRAN-RXN	2.4.2.22	xanthine phosphoribosyl transferase	No Evidence Code
+PWY3O-285	YDR399W		HPT1	GUANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY3O-285	YNL141W		AAH1	ADENINE-DEAMINASE-RXN	3.5.4.2	adenine aminohydrolase	No Evidence Code
+PWY3O-285	YDR399W		HPT1	HYPOXANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY3O-285	G3O-310		ISN1	RXN-7607	3.1.3.5/3.1.3.99	inosine 5' monophosphate (IMP)-specific 5' nucleotidase	No Evidence Code
+PWY3O-285	YLR209C		PNP1	INOPHOSPHOR-RXN	2.4.2.1	purine nucleoside phosphorylase	No Evidence Code
+PWY3O-285	YML056C		IMD4	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY3O-285	YLR432W		IMD3	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY3O-285	YHR216W		IMD2	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY3O-285	YMR217W		GUA1	GMP-SYN-NH3-RXN	No EC#	GMP synthase	No Evidence Code
+PWY3O-285	YMR217W		GUA1	GMP-SYN-GLUT-RXN	6.3.5.2	GMP synthase	No Evidence Code
+PWY3O-285	YDR454C		GUK1	GUANYL-KIN-RXN	2.7.4.8	guanylate kinase	No Evidence Code
+PWY3O-285	YER070W		RNR1	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YJL026W		RNR2	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YIL066C		RNR3	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YGR180C		RNR4	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YKL067W		YNK1	DGDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-285	YKL067W		YNK1	GDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-285	YNL220W		ADE12	ADENYLOSUCCINATE-SYNTHASE-RXN	6.3.4.4	adenylosuccinate synthetase	No Evidence Code
+PWY3O-285	YLR359W		ADE13	AMPSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+PWY3O-285	YER170W		ADK2	ADENYL-KIN-RXN	2.7.4.3	mitochondrial GTP:AMP phosphotransferase	No Evidence Code
+PWY3O-285	YDR226W		ADK1	ADENYL-KIN-RXN	2.7.4.3	adenylate kinase	No Evidence Code
+PWY3O-285	YER070W		RNR1	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YJL026W		RNR2	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YIL066C		RNR3	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YGR180C		RNR4	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY3O-285	YKL067W		YNK1	DADPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-285	YML035C		AMD1	AMP-DEAMINASE-RXN	3.5.4.6/3.5.4.17	AMD1	No Evidence Code
+PWY3O-96	YDR400W		URH1	RXN-8441	3.2.2.3	nicotinamide ribose nucleosidase	No Evidence Code
+PWY3O-96	YLR209C		PNP1	RXN0-7092	2.4.2.-	nicotinamide ribose nucleoside phosphorylase	No Evidence Code
+PWY-6125	YML056C		IMD4	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-6125	YLR432W		IMD3	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-6125	YHR216W		IMD2	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-6125	YKL067W		YNK1	DGDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY-6125	YMR217W		GUA1	GMP-SYN-GLUT-RXN	6.3.5.2	GMP synthase	No Evidence Code
+PWY-6125	YDR454C		GUK1	GUANYL-KIN-RXN	2.7.4.8	guanylate kinase	No Evidence Code
+PWY-6125	YER070W		RNR1	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6125	YJL026W		RNR2	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6125	YIL066C		RNR3	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6125	YGR180C		RNR4	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6125	YKL067W		YNK1	GDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-224	G3O-4113		NRK1	RXN-8443	2.7.1.173/2.7.1.-	nicotinic acid riboside kinase	No Evidence Code
+PWY3O-4107	YGR010W		NMA2	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4107	YLR328W		NMA1	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4107	YHR074W		QNS1	NAD-SYNTH-GLN-RXN	6.3.5.1	glutamine-dependent NAD synthase	No Evidence Code
+PWY3O-4107	YDL042C		SIR2	RXN-15025	2.3.1.-	NAD-dependent histone deacetylase	No Evidence Code
+PWY3O-4107	YGL037C		PNC1	NICOTINAMID-RXN	3.5.1.19	nicotinamidase	No Evidence Code
+PWY3O-4107	YOR209C		NPT1	NICOTINATEPRIBOSYLTRANS-RXN	6.3.4.21	nicotinate phosphoribosyl transferase	No Evidence Code
+PWY-5694	YIR027C		DAL1	ALLANTOINASE-RXN	3.5.2.5	allantoinase	No Evidence Code
+PWY-5694	YIR029W		DAL2	ALLANTOICASE-RXN	3.5.3.4	allantoicase	No Evidence Code
+PWY-5694	YIR032C		DAL3	UREIDOGLYCOLATE-LYASE-RXN	4.3.2.3	ureidoglycolate hydrolase	No Evidence Code
+PWY3O-6635	YOL059W		GPD2	1.1.1.8-RXN	1.1.1.8	glycerol-3-phosphate dehydrogenase (NAD+)	No Evidence Code
+PWY3O-6635	YDL022W		GPD1	1.1.1.8-RXN	1.1.1.8	glycerol 3-phosphate dehydrogenase	No Evidence Code
+PWY3O-6635	G3O-4104		SCT1	RXN3O-5279	2.3.1.42	dihydroxyacetone phosphate acyltransferase	No Evidence Code
+PWY3O-6635	YKR067W		GPT2	RXN3O-5279	2.3.1.42	dihydroxyacetone phosphate acyltransferase	No Evidence Code
+PWY3O-6635	YIL124W		AYR1	RXN3O-9800	1.1.1.101	1-acyl-dihydroxyacetone-phosphate	No Evidence Code
+PWY3O-6635	G3O-4104		SCT1	GLYCEROL-3-P-ACYLTRANSFER-RXN	2.3.1.15	glycerol-3-phosphate-O-acyltransferase	No Evidence Code
+PWY3O-6635	YKR067W		GPT2	GLYCEROL-3-P-ACYLTRANSFER-RXN	2.3.1.15	glycerol-3-phosphate-O-acyltransferase	No Evidence Code
+PWY3O-6635	YDL052C		SLC1	RXN-1623	2.3.1.51	1-acyl-sn-glycerol-3-phosphate acyl transferase	No Evidence Code
+PWY-3322	YDL215C		GDH2	GLUTAMATE-DEHYDROGENASE-RXN	1.4.1.2	NAD-dependent glutamate dehydrogenase	No Evidence Code
+PWY3O-13	YNL009W		IDP3	ISOCITDEH-RXN	1.1.1.42	NADP-dependent isocitrate dehydrogenase	No Evidence Code
+PWY3O-13	YLR174W		IDP2	ISOCITDEH-RXN	1.1.1.42	NADP-dependent isocitrate dehydrogenase	No Evidence Code
+PWY3O-13	YDL066W		IDP1	ISOCITDEH-RXN	1.1.1.42	NADP-dependent isocitrate dehydrogenase	No Evidence Code
+PWY3O-13	YPR035W		GLN1	GLUTAMINESYN-RXN	6.3.1.2	glutamine synthetase	No Evidence Code
+PWY3O-13	YOR375C		GDH1	GLUTDEHYD-RXN	1.4.1.4	NADP-dependent glutamate dehydrogenase	No Evidence Code
+PWY3O-13	YAL062W		GDH3	GLUTDEHYD-RXN	1.4.1.4	NADP-dependent glutamate dehydrogenase	No Evidence Code
+PWY3O-13	YDL171C		GLT1	GLUTAMATE-SYNTHASE-NADH-RXN	1.4.1.14	glutamate synthase (NADH)	No Evidence Code
+PWY-2301	YJL153C		INO1	MYO-INOSITOL-1-PHOSPHATE-SYNTHASE-RXN	5.5.1.4	L-myo-inositol-1-phosphate synthase	EV-EXP
+PWY-2301	G3O-4		INM2	MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN	3.1.3.25	inositol monophosphate	No Evidence Code
+PWY-2301	YHR046C		INM1	MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN	3.1.3.25	inositol monophosphatase	No Evidence Code
+PWY-6482-1	YBL071W-A	YBL071W-A	KTI11	RXN-11371	No EC#	L-histidien:S-adenosyl-L-methionine 3-amino-3-carboxypropyl transferase	EV-EXP
+PWY-6482-1	YKL191W	YKL191W	DPH2	RXN-11371	No EC#	L-histidien:S-adenosyl-L-methionine 3-amino-3-carboxypropyl transferase	EV-EXP
+PWY-6482-1	YIL103W	YIL103W	DPH1	RXN-11371	No EC#	L-histidien:S-adenosyl-L-methionine 3-amino-3-carboxypropyl transferase	EV-EXP
+PWY-6482-1	YLR172C	YLR172C	DPH5	RXN-11370	No EC#	S-adenosyl-L-methionine:2-(3-carboxy-3-aminopropyl)-L-histidine methyltransferase	EV-EXP
+PWY-6482-1	YLR172C	YLR172C	DPH5	RXN-11374	No EC#	S-adenosyl-L-methionine:2-[3-carboxy-(3-methylammonio)propyl]-L-histidine methyltransferase	EV-EXP
+PWY-6482-1	YLR172C	YLR172C	DPH5	RXN-11373	No EC#	diphthine synthase	EV-EXP
+PWY-6482-1	YBR246W	YBR246W	RRT2	DIPHTINE--AMMONIA-LIGASE-RXN	6.3.1.14	diphthamide synthetase	EV-EXP
+PWY3O-661	YAL060W		BDH1	RR-BUTANEDIOL-DEHYDROGENASE-RXN	1.1.1.4	2,3-butanediol dehydrogenase	No Evidence Code
+PWY3O-954	YER052C		HOM3	ASPARTATEKIN-RXN	2.7.2.4	L-aspartate 4-P-transferase	No Evidence Code
+PWY3O-954	YDR158W		HOM2	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	1.2.1.11	aspartic beta semi-aldehyde dehydrogenase	No Evidence Code
+PWY3O-954	YJR139C		HOM6	HOMOSERDEHYDROG-RXN	1.1.1.3	homoserine dehydrogenase	No Evidence Code
+PWY3O-954	YNL277W		MET2	HOMOSERINE-O-ACETYLTRANSFERASE-RXN	2.3.1.31	homoserine O-trans-acetylase	No Evidence Code
+PWY3O-954	YLR303W		MET17	ACETYLHOMOSER-CYS-RXN	2.5.1.49	O-acetylhomoserine (thiol)-lyase	No Evidence Code
+PWY3O-954	YER091C		MET6	HOMOCYSMET-RXN	2.1.1.14	N5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase	No Evidence Code
+PWY3O-954	YOR241W		MET7	RXN3O-22	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY-6126-1	YNL220W		ADE12	ADENYLOSUCCINATE-SYNTHASE-RXN	6.3.4.4	adenylosuccinate synthetase	No Evidence Code
+PWY-6126-1	YLR359W		ADE13	AMPSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+PWY-6126-1	YER170W		ADK2	ADENYL-KIN-RXN	2.7.4.3	mitochondrial GTP:AMP phosphotransferase	No Evidence Code
+PWY-6126-1	YDR226W		ADK1	ADENYL-KIN-RXN	2.7.4.3	adenylate kinase	No Evidence Code
+PWY-6126-1	YER070W		RNR1	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6126-1	YJL026W		RNR2	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6126-1	YIL066C		RNR3	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6126-1	YGR180C		RNR4	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-6126-1	YKL067W		YNK1	DADPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-335	YMR108W		ILV2	ACETOLACTSYN-RXN	2.2.1.6	acetolactate synthase	No Evidence Code
+PWY3O-335	YCL009C		ILV6	ACETOLACTSYN-RXN	2.2.1.6	acetolactate synthase	No Evidence Code
+PWY3O-335	YAL060W		BDH1	ACETOINDEHYDROG-RXN	1.1.1.-	diacetyl reductase	No Evidence Code
+PWY3O-2	YER026C		CHO1	PHOSPHASERSYN-RXN	2.7.8.8	phosphatidylserine synthase	No Evidence Code
+PWY3O-2	YCL004W		PGS1	PHOSPHAGLYPSYN-RXN	2.7.8.5	phosphatidylglycerolphosphate synthase	No Evidence Code
+PWY3O-2	YDR147W		EKI1	ETHANOLAMINE-KINASE-RXN	2.7.1.82	ethanolamine kinase	No Evidence Code
+PWY3O-2	YPR113W		PIS1	2.7.8.11-RXN	2.7.8.11	phosphatidylinositol synthase	No Evidence Code
+PWY3O-2	YLR133W		CKI1	CHOLINE-KINASE-RXN	2.7.1.32	choline kinase	No Evidence Code
+PWY3O-2	YGR202C		PCT1	2.7.7.15-RXN	2.7.7.15	phosphorylcholine transferase	No Evidence Code
+PWY3O-2	YNL130C		CPT1	RXN-5781	2.7.8.2	sn-1,2-diacylglycerol cholinephosphotransferase	No Evidence Code
+PWY3O-2	YGR007W		ECT1	2.7.7.14-RXN	2.7.7.14	phosphoethanolamine cytidyltransferase	No Evidence Code
+PWY3O-2	YHR123W		EPT1	ETHANOLAMINEPHOSPHOTRANSFERASE-RXN	2.7.8.1	ethanolaminephosphotransferase	No Evidence Code
+PWY3O-2	YDL142C		CRD1	CARDIOLIPSYN-RXN	2.7.8.-	cardiolipin synthase	No Evidence Code
+PWY3O-2	YNL169C		PSD1	PHOSPHASERDECARB-RXN	4.1.1.65	phosphatidylserine decarboxylase, mitochondria	No Evidence Code
+PWY3O-2	YGR170W		PSD2	PHOSPHASERDECARB-RXN	4.1.1.65	phosphatidylserine decarboxylase, golgi/vacuole	No Evidence Code
+PWY3O-2	YGR157W		CHO2	2.1.1.17-RXN	2.1.1.17	CHO2	No Evidence Code
+PWY3O-2	YJR073C		OPI3	2.1.1.71-RXN	2.1.1.71	OPI3	No Evidence Code
+PWY3O-2	YJR073C		OPI3	RXN4FS-2	2.1.1.71	phospholipid methyltransferase	No Evidence Code
+PWY3O-2	YJR073C		OPI3	RXN3O-349	2.1.1.71	OPI3	No Evidence Code
+PWY3O-69	YDR232W		HEM1	5-AMINOLEVULINIC-ACID-SYNTHASE-RXN	2.3.1.37	5-aminolevulinate synthase	No Evidence Code
+PWY3O-69	YGL040C		HEM2	PORPHOBILSYNTH-RXN	4.2.1.24	delta-aminolevulinate dehydratase	No Evidence Code
+PWY3O-69	YDL205C		HEM3	OHMETHYLBILANESYN-RXN	2.5.1.61	porphobilinogen deaminase	No Evidence Code
+PWY3O-69	YOR278W		HEM4	UROGENIIISYN-RXN	4.2.1.75	uroporphyrinogen III synthase	No Evidence Code
+PWY3O-69	G3O-46		MET1	RXN-13403	2.1.1.107	uroporphyrinogen-III C-methyltransferase	No Evidence Code
+PWY3O-69	G3O-105		MET8	DIMETHUROPORDEHYDROG-RXN	1.3.1.76	precorrin-2 dehydrogenase	No Evidence Code
+PWY3O-69	G3O-105		MET8	SIROHEME-FERROCHELAT-RXN	4.99.1.4	ferrochelatase	No Evidence Code
+PWY3O-69	YDR047W		HEM12	UROGENDECARBOX-RXN	4.1.1.37	uroporphyrinogen decarboxylase	No Evidence Code
+PWY3O-69	YDR044W		HEM13	RXN0-1461	1.3.3.3	aerobic coproporphyrinogen oxidase	No Evidence Code
+PWY3O-69	YER014W		HEM14	PROTOPORGENOXI-RXN	1.3.3.4	protoporphyrinogen oxidase	No Evidence Code
+PWY3O-69	YOR176W		HEM15	PROTOHEMEFERROCHELAT-RXN	4.99.1.1	protoheme ferrolyase	No Evidence Code
+PWY3O-103	YBR029C		CDS1	CDPDIGLYSYN-RXN	2.7.7.41	phosphatidate cytidylyltransferase	No Evidence Code
+PWY3O-5962	YPL231W		FAS2	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-ketostearoyl-[acp] synthase	EV-EXP
+PWY3O-5962	YER061C		CEM1	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-5962	YKL182W		FAS1	ACP-S-ACETYLTRANSFER-RXN	2.3.1.38/2.3.1.85/2.3.1.86	acetyl transferase	EV-EXP
+PWY3O-5962	YNR016C		ACC1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-CoA carboxylase	EV-EXP
+PWY3O-5962	YMR207C		HFA1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-coenzyme A carboxylase	No Evidence Code
+PWY3O-5962	YKL182W		FAS1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl transferase	EV-EXP
+PWY3O-5962	YOR221C		MCT1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl-CoA:ACP transferase	No Evidence Code
+PWY3O-5962	YPL231W		FAS2	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	acetoacetyl-ACP synthase	EV-EXP
+PWY3O-5962	YER061C		CEM1	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-5962	YKL055C		OAR1	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-5962	YPL231W		FAS2	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	acetoacetyl-[acp]:NADPH+ oxidoreductase	EV-EXP
+PWY3O-5962	YKL182W		FAS1	4.2.1.58-RXN	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxybutanoyl-[acp] dehydratase	EV-EXP
+PWY3O-5962	YKL182W		FAS1	RXN-9515	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	crotonyl-[acp] reductase	EV-EXP
+PWY3O-5962	YKL055C		OAR1	RXN-9633	1.1.1.100/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-5962	YPL231W		FAS2	RXN-9633	1.1.1.100/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-5962	YKL182W		FAS1	RXN-9634	2.3.1.86/4.2.1.59/4.2.1.-	3-hydroxystearoyl-[acp] dehydratase	EV-EXP
+PWY3O-5962	YKL182W		FAS1	RXN3O-5293	1.3.1.10/2.3.1.86	trans-octadecenoyl-[acp] reductase (NADPH)	EV-EXP
+PWY3O-5962	YKL182W		FAS1	RXN3O-5304	2.3.1.86/2.3.1.-	stearoyl  transferase	EV-AS
+PWY3O-5962	YJR019C		TES1	RXN-9624	3.1.2.2	Thioesterase	No Evidence Code
+PWY3O-5962	YGL055W		OLE1	1.14.19.1-RXN	1.14.19.1	stearoyl-CoA 9-desaturase	EV-EXP
+PWY3O-5962	YPL231W		FAS2	3-OXOACYL-ACP-SYNTH-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-ketoacyl-ACP synthase	EV-EXP
+PWY3O-5962	YER061C		CEM1	3-OXOACYL-ACP-SYNTH-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-5962	YPL231W		FAS2	3-OXOACYL-ACP-REDUCT-RXN	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-5962	YKL055C		OAR1	3-OXOACYL-ACP-REDUCT-RXN	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-5962	YKL182W		FAS1	3-HYDROXYDECANOYL-ACP-DEHYDR-RXN	2.3.1.85/2.3.1.86/4.2.1.59/4.2.1.-	3-hydroxyacyl-[acp] dehydratase	EV-EXP
+PWY3O-5962	YKL182W		FAS1	ENOYL-ACP-REDUCT-NADPH-RXN	1.3.1.10/1.3.1.39/1.3.1.104/2.3.1.85/2.3.1.86	enoyl-acyl-[acp] reductase (NADPH)	EV-EXP
+PWY3O-5962	YKL182W		FAS1	RXN3O-9780	2.3.1.-	palmitoyl transferase	EV-EXP
+PWY3O-5962	YGL055W		OLE1	RXN-10664	1.14.19.1	palmitoyl-CoA desaturase	EV-EXP
+PWY3O-5962	YJR019C		TES1	RXN-10662	3.1.2.-	Thioesterase	No Evidence Code
+PWY0-162	YJL130C		URA2	CARBPSYN-RXN	6.3.5.5	carbamyl phosphate synthase	No Evidence Code
+PWY0-162	YJL130C		URA2	ASPCARBTRANS-RXN	2.1.3.2	aspartate transcarbamylase	No Evidence Code
+PWY0-162	YLR420W		URA4	DIHYDROOROT-RXN	3.5.2.3	dihydrooratase	No Evidence Code
+PWY0-162	YKL216W		URA1	RXN-9929	1.3.98.1	dihydroorotate dehydrogenase, type 1A	No Evidence Code
+PWY0-162	YML106W		URA5	OROPRIBTRANS-RXN	2.4.2.10	orotate phosphoribosyltransferase	No Evidence Code
+PWY0-162	YMR271C		URA10	OROPRIBTRANS-RXN	2.4.2.10	orotate phosphoribosyltransferase	No Evidence Code
+PWY0-162	YEL021W		URA3	OROTPDECARB-RXN	4.1.1.23	orotidine-5'-phosphate decarboxylase	No Evidence Code
+PWY0-162	YKL024C		URA6	RXN-12002	2.7.4.4/2.7.4.14/2.7.4.22	uridylate kinase	No Evidence Code
+PWY0-162	YJR103W		URA8	CTPSYN-RXN	6.3.4.2	CTP synthase	No Evidence Code
+PWY0-162	YBL039C		URA7	CTPSYN-RXN	6.3.4.2	CTP synthase	No Evidence Code
+PWY3O-981	YGR087C		PDC6	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR134W		PDC5	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR044C		PDC1	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YMR108W		ILV2	ACETOLACTSYN-RXN	2.2.1.6	acetolactate synthase	No Evidence Code
+PWY3O-981	YCL009C		ILV6	ACETOLACTSYN-RXN	2.2.1.6	acetolactate synthase	No Evidence Code
+PWY3O-981	YAL060W		BDH1	ACETOINDEHYDROG-RXN	1.1.1.-	diacetyl reductase	No Evidence Code
+PWY3O-981	YGR087C		PDC6	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR134W		PDC5	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR044C		PDC1	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YGR087C		PDC6	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR134W		PDC5	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YLR044C		PDC1	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-981	YAL060W		BDH1	RR-BUTANEDIOL-DEHYDROGENASE-RXN	1.1.1.4	2,3-butanediol dehydrogenase	No Evidence Code
+PWY3O-351	YDR502C		SAM2	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY3O-351	YLR180W		SAM1	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY3O-351	YOL052C		SPE2	SAMDECARB-RXN	4.1.1.50	S-adenosylmethionine decarboxylase	No Evidence Code
+PWY3O-351	YPR069C		SPE3	SPERMIDINESYN-RXN	2.5.1.16	putrescine aminopropyltransferase	No Evidence Code
+PWY3O-351	YLR146C		SPE4	SPERMINE-SYNTHASE-RXN	2.5.1.22	spermine synthase	No Evidence Code
+PWY3O-351	G3O-114		MEU1	5-METHYLTHIOADENOSINE-PHOSPHORYLASE-RXN	2.4.2.28	5'-methylthioadenosine phosphorylase	No Evidence Code
+PWY3O-351	G3O-111		MRI1	5.3.1.23-RXN	5.3.1.23	methylthioribose-1-phosphate isomerase	No Evidence Code
+PWY3O-351	G3O-132		MDE1	R145-RXN	4.2.1.109	methylthioribulose-1-phosphate dehydratase	No Evidence Code
+PWY3O-351	G3O-137		UTR4	3.1.3.77-RXN	3.1.3.77	2,3-dioxomethiopentane-1-phosphate enolase/phosphatase	No Evidence Code
+PWY3O-351	G3O-142		ADI1	R147-RXN	1.13.11.54	acireductone dioxygenase	No Evidence Code
+PWY3O-351	YJR148W		BAT2	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-351	YHR208W		BAT1	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-351	YGL202W		ARO8	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-351	YHR137W		ARO9	R15-RXN	2.6.1.88	4-methylthio-2-oxobutyrate transaminase	No Evidence Code
+PWY3O-246	YAL060W		BDH1	RR-BUTANEDIOL-DEHYDROGENASE-RXN	1.1.1.4	2,3-butanediol dehydrogenase	No Evidence Code
+PWY3O-592	YPL091W		GLR1	GLUTATHIONE-REDUCT-NADPH-RXN	1.8.1.7	glutathione oxidoreductase	No Evidence Code
+PWY-7220-1	YER070W		RNR1	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7220-1	YJL026W		RNR2	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7220-1	YIL066C		RNR3	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7220-1	YGR180C		RNR4	ADPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7220-1	YKL067W		YNK1	DADPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-94	YGL062W		PYC1	PYRUVATE-CARBOXYLASE-RXN	6.4.1.1	pyruvate carboxylase	No Evidence Code
+PWY3O-94	YBR218C		PYC2	PYRUVATE-CARBOXYLASE-RXN	6.4.1.1	pyruvate carboxylase	No Evidence Code
+PWY3O-94	YDL078C		MDH3	MALATE-DEH-RXN	1.1.1.37	peroxisome malate dehydrogenase	No Evidence Code
+PWY3O-94	YKL085W		MDH1	MALATE-DEH-RXN	1.1.1.37	mitochondrial malate dehydrogenase	No Evidence Code
+PWY3O-94	YOL126C		MDH2	MALATE-DEH-RXN	1.1.1.37	cytosolic malate dehydrogenase	No Evidence Code
+PWY3O-94	YKL029C		MAE1	MALATE-DEH-RXN	1.1.1.37	malic enzyme	No Evidence Code
+PWY3O-94	YPR001W		CIT3	CITSYN-RXN	2.3.3.1/2.3.3.16	citrate synthase	No Evidence Code
+PWY3O-94	YNR001C		CIT1	CITSYN-RXN	2.3.3.1/2.3.3.16	citrate synthase	No Evidence Code
+PWY3O-94	YCR005C		CIT2	CITSYN-RXN	2.3.3.1/2.3.3.16	citrate synthase	No Evidence Code
+PWY3O-94	YLR304C		ACO1	ACONITATEDEHYDR-RXN	No EC#	aconitate hydratase	No Evidence Code
+PWY3O-94	YJL200C		ACO2	ACONITATEDEHYDR-RXN	No EC#	aconitate hydratase	No Evidence Code
+PWY3O-94	YLR304C		ACO1	ACONITATEHYDR-RXN	No EC#	aconitate hydratase	No Evidence Code
+PWY3O-94	YER065C		ICL1	ISOCIT-CLEAV-RXN	4.1.3.1	isocitrate lyase	No Evidence Code
+PWY3O-94	YNL117W		MLS1	MALSYN-RXN	2.3.3.9	malate synthase	No Evidence Code
+PWY3O-94	YIR031C		DAL7	MALSYN-RXN	2.3.3.9	malate synthase 2	No Evidence Code
+PWY3O-94	YNL037C		IDH1	ISOCITRATE-DEHYDROGENASE-NAD+-RXN	1.1.1.41/1.1.1.286	NAD-dependent isocitrate dehydrogenase	No Evidence Code
+PWY3O-94	YOR136W		IDH2	ISOCITRATE-DEHYDROGENASE-NAD+-RXN	1.1.1.41/1.1.1.286	NAD-dependent isocitrate dehydrogenase	No Evidence Code
+PWY3O-94	YFL018C		LPD1	2OXOGLUTARATEDEH-RXN	1.2.1.-	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY3O-94	YIL125W		KGD1	2OXOGLUTARATEDEH-RXN	1.2.1.-	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY3O-94	YDR148C		KGD2	2OXOGLUTARATEDEH-RXN	1.2.1.-	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY3O-94	YOR142W		LSC1	SUCCCOASYN-RXN	6.2.1.5	succinyl-CoA ligase	No Evidence Code
+PWY3O-94	YGR244C		LSC2	SUCCCOASYN-RXN	6.2.1.5	succinyl-CoA ligase	No Evidence Code
+PWY3O-94	YDR178W		SDH4	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YKL141W		SDH3	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YLL041C		SDH2	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YJL045W			SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YDR178W		SDH4	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YKL141W		SDH3	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YLL041C		SDH2	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YKL148C		SDH1	SUCCINATE-DEHYDROGENASE-UBIQUINONE-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-94	YPL262W		FUM1	FUMHYDR-RXN	4.2.1.2	fumarate hydralase	No Evidence Code
+PWY3O-7	YGL062W		PYC1	PYRUVATE-CARBOXYLASE-RXN	6.4.1.1	pyruvate carboxylase	No Evidence Code
+PWY3O-7	YBR218C		PYC2	PYRUVATE-CARBOXYLASE-RXN	6.4.1.1	pyruvate carboxylase	No Evidence Code
+PWY3O-7	YLR027C		AAT2	ASPAMINOTRANS-RXN	2.6.1.1	aspartate aminotransferase	No Evidence Code
+PWY3O-7	YKL106W		AAT1	ASPAMINOTRANS-RXN	2.6.1.1	aspartate aminotransferase	No Evidence Code
+PWY3O-7	YER052C		HOM3	ASPARTATEKIN-RXN	2.7.2.4	L-aspartate 4-P-transferase	No Evidence Code
+PWY3O-7	YDR158W		HOM2	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	1.2.1.11	aspartic beta semi-aldehyde dehydrogenase	No Evidence Code
+PWY3O-7	YJR139C		HOM6	HOMOSERDEHYDROG-RXN	1.1.1.3	homoserine dehydrogenase	No Evidence Code
+PWY3O-7	YHR025W		THR1	HOMOSERKIN-RXN	2.7.1.39	homoserine kinase	No Evidence Code
+PWY3O-7	YCR053W		THR4	THRESYN-RXN	4.2.3.1	threonine synthase	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-ketostearoyl-[acp] synthase	EV-EXP
+PWY3O-6336	YER061C		CEM1	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-6336	YKL182W		FAS1	ACP-S-ACETYLTRANSFER-RXN	2.3.1.38/2.3.1.85/2.3.1.86	acetyl transferase	EV-EXP
+PWY3O-6336	YNR016C		ACC1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-CoA carboxylase	EV-EXP
+PWY3O-6336	YMR207C		HFA1	ACETYL-COA-CARBOXYLTRANSFER-RXN	6.4.1.2	acetyl-coenzyme A carboxylase	No Evidence Code
+PWY3O-6336	YKL182W		FAS1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl transferase	EV-EXP
+PWY3O-6336	YOR221C		MCT1	MALONYL-COA-ACP-TRANSACYL-RXN	2.3.1.39/2.3.1.85/2.3.1.86	malonyl-CoA:ACP transferase	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	acetoacetyl-ACP synthase	EV-EXP
+PWY3O-6336	YER061C		CEM1	3-OXOACYL-ACP-SYNTH-BASE-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-6336	YKL055C		OAR1	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	RXN-9514	1.1.1.100/2.3.1.85/2.3.1.86	acetoacetyl-[acp]:NADPH+ oxidoreductase	EV-EXP
+PWY3O-6336	YKL182W		FAS1	4.2.1.58-RXN	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxybutanoyl-[acp] dehydratase	EV-EXP
+PWY3O-6336	YKL182W		FAS1	RXN-9515	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	crotonyl-[acp] reductase	EV-EXP
+PWY3O-6336	YKL055C		OAR1	RXN-9633	1.1.1.100/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	RXN-9633	1.1.1.100/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-6336	YKL182W		FAS1	RXN-9634	2.3.1.86/4.2.1.59/4.2.1.-	3-hydroxystearoyl-[acp] dehydratase	EV-EXP
+PWY3O-6336	YKL182W		FAS1	RXN3O-5293	1.3.1.10/2.3.1.86	trans-octadecenoyl-[acp] reductase (NADPH)	EV-EXP
+PWY3O-6336	YKL182W		FAS1	RXN3O-5304	2.3.1.86/2.3.1.-	stearoyl  transferase	EV-AS
+PWY3O-6336	YJR019C		TES1	RXN-9624	3.1.2.2	Thioesterase	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	3-OXOACYL-ACP-SYNTH-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-ketoacyl-ACP synthase	EV-EXP
+PWY3O-6336	YER061C		CEM1	3-OXOACYL-ACP-SYNTH-RXN	2.3.1.41/2.3.1.85/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-6336	YPL231W		FAS2	3-OXOACYL-ACP-REDUCT-RXN	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-6336	YKL055C		OAR1	3-OXOACYL-ACP-REDUCT-RXN	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-6336	YKL182W		FAS1	3-HYDROXYDECANOYL-ACP-DEHYDR-RXN	2.3.1.85/2.3.1.86/4.2.1.59/4.2.1.-	3-hydroxyacyl-[acp] dehydratase	EV-EXP
+PWY3O-6336	YKL182W		FAS1	ENOYL-ACP-REDUCT-NADPH-RXN	1.3.1.10/1.3.1.39/1.3.1.104/2.3.1.85/2.3.1.86	enoyl-acyl-[acp] reductase (NADPH)	EV-EXP
+PWY3O-6336	YKL182W		FAS1	RXN3O-9780	2.3.1.-	palmitoyl transferase	EV-EXP
+PWY3O-355	YPL231W		FAS2	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-ketostearoyl-[acp] synthase	EV-EXP
+PWY3O-355	YER061C		CEM1	RXN3O-1803	2.3.1.41/2.3.1.86/2.3.1.179	beta-keto-acyl synthase homolog	No Evidence Code
+PWY3O-355	YKL055C		OAR1	RXN-9633	1.1.1.100/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-355	YPL231W		FAS2	RXN-9633	1.1.1.100/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-355	YKL182W		FAS1	RXN-9634	2.3.1.86/4.2.1.59/4.2.1.-	3-hydroxystearoyl-[acp] dehydratase	EV-EXP
+PWY3O-355	YKL182W		FAS1	RXN3O-5293	1.3.1.10/2.3.1.86	trans-octadecenoyl-[acp] reductase (NADPH)	EV-EXP
+PWY3O-355	YKL182W		FAS1	RXN3O-5304	2.3.1.86/2.3.1.-	stearoyl  transferase	EV-AS
+PWY3O-355	YJR019C		TES1	RXN-9624	3.1.2.2	Thioesterase	No Evidence Code
+PWY3O-114	YJL101C		GSH1	GLUTCYSLIG-RXN	6.3.2.2	gamma-glutamylcysteine synthetase	No Evidence Code
+PWY3O-114	YOL049W		GSH2	GLUTATHIONE-SYN-RXN	6.3.2.3	glutathione synthetase	No Evidence Code
+PWY3O-114	YLR299W		ECM38	RXN-6601	2.3.2.2	gamma-glutamyltransferase	No Evidence Code
+PWY3O-114	G3O-2		DUG1	RXN-6622	3.4.13.18	Cys-Gly metallodipeptidase	EV-EXP
+PWY-5669	YER026C		CHO1	PHOSPHASERSYN-RXN	2.7.8.8	phosphatidylserine synthase	No Evidence Code
+PWY-5669	YNL169C		PSD1	PHOSPHASERDECARB-RXN	4.1.1.65	phosphatidylserine decarboxylase, mitochondria	No Evidence Code
+PWY-5669	YGR170W		PSD2	PHOSPHASERDECARB-RXN	4.1.1.65	phosphatidylserine decarboxylase, golgi/vacuole	No Evidence Code
+PWY3O-4158	YJR078W		BNA2	RXN-8665	1.13.11.11/1.13.11.52	Tryptophan 2,3-dioxygenase	No Evidence Code
+PWY3O-4158	YDR400W		URH1	RXN-8441	3.2.2.3	nicotinamide ribose nucleosidase	No Evidence Code
+PWY3O-4158	G3O-4113		NRK1	RIBOSYLNICOTINAMIDE-KINASE-RXN	2.7.1.22	nicotinamide ribose kinase	No Evidence Code
+PWY3O-4158	YLR209C		PNP1	RXN3O-205	No EC#	nicotinic acid riboside phosphorylase	No Evidence Code
+PWY3O-4158	G3O-4113		NRK1	RXN-8443	2.7.1.173/2.7.1.-	nicotinic acid riboside kinase	No Evidence Code
+PWY3O-4158	YDR400W		URH1	RXN3O-214	No EC#	nicotinic acid riboside hydrolase	No Evidence Code
+PWY3O-4158	YLR209C		PNP1	RXN0-7092	2.4.2.-	nicotinamide ribose nucleoside phosphorylase	No Evidence Code
+PWY3O-4158	YDR428C		BNA7	ARYLFORMAMIDASE-RXN	3.5.1.9	Arylformamidase	No Evidence Code
+PWY3O-4158	YJL060W		BNA3	ARYLFORMAMIDASE-RXN	3.5.1.9	arylformamidase	No Evidence Code
+PWY3O-4158	YBL098W		BNA4	KYNURENINE-3-MONOOXYGENASE-RXN	1.14.13.9	Kynurenine 3-mono oxygenase	No Evidence Code
+PWY3O-4158	YLR231C		BNA5	3-HYDROXY-KYNURENINASE-RXN	3.7.1.3	Kynureninase	No Evidence Code
+PWY3O-4158	YJR025C		BNA1	1.13.11.6-RXN	1.13.11.6	3-hydroxyanthranilic acid dioxygenase	No Evidence Code
+PWY3O-4158	YFR047C		BNA6	QUINOPRIBOTRANS-RXN	2.4.2.19	Quinolinate phosphoribosyl transferase	No Evidence Code
+PWY3O-4158	YGR010W		NMA2	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4158	YLR328W		NMA1	NICONUCADENYLYLTRAN-RXN	2.7.7.18	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4158	YHR074W		QNS1	NAD-SYNTH-GLN-RXN	6.3.5.1	glutamine-dependent NAD synthase	No Evidence Code
+PWY3O-4158	YLR328W		NMA1	2.7.7.1-RXN	2.7.7.1	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4158	YGR010W		NMA2	2.7.7.1-RXN	2.7.7.1	Nicotinamide/nicotinic acid mononucleotide adenylyltransferase	No Evidence Code
+PWY3O-4158	YDL042C		SIR2	RXN-15025	2.3.1.-	NAD-dependent histone deacetylase	No Evidence Code
+PWY3O-4158	YGL037C		PNC1	NICOTINAMID-RXN	3.5.1.19	nicotinamidase	No Evidence Code
+PWY3O-4158	YOR209C		NPT1	NICOTINATEPRIBOSYLTRANS-RXN	6.3.4.21	nicotinate phosphoribosyl transferase	No Evidence Code
+PWY-821-1	YER052C		HOM3	ASPARTATEKIN-RXN	2.7.2.4	L-aspartate 4-P-transferase	No Evidence Code
+PWY-821-1	YOR241W		MET7	RXN3O-22	6.3.2.17	folylpolyglutamate synthetase	No Evidence Code
+PWY-821-1	YDR158W		HOM2	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	1.2.1.11	aspartic beta semi-aldehyde dehydrogenase	No Evidence Code
+PWY-821-1	YJR139C		HOM6	HOMOSERDEHYDROG-RXN	1.1.1.3	homoserine dehydrogenase	No Evidence Code
+PWY-821-1	YNL277W		MET2	HOMOSERINE-O-ACETYLTRANSFERASE-RXN	2.3.1.31	homoserine O-trans-acetylase	No Evidence Code
+PWY-821-1	YPR167C		MET16	1.8.4.8-RXN	1.8.4.8	PAPS reductase	No Evidence Code
+PWY-821-1	YJR010W		MET3	SULFATE-ADENYLYLTRANS-RXN	2.7.7.4	ATP sulfurylase	No Evidence Code
+PWY-821-1	YKL001C		MET14	ADENYLYLSULFKIN-RXN	2.7.1.25	adenylylsulfate kinase	No Evidence Code
+PWY-821-1	YFR030W		MET10	SULFITE-REDUCT-RXN	1.8.1.2	sulfite reductase (NADPH)	No Evidence Code
+PWY-821-1	YJR137C		MET5	SULFITE-REDUCT-RXN	1.8.1.2	sulfite reductase (NADPH)	No Evidence Code
+PWY-821-1	YLR303W		MET17	ACETYLHOMOSER-CYS-RXN	2.5.1.49	O-acetylhomoserine (thiol)-lyase	No Evidence Code
+PWY-821-1	YGR155W		CYS4	CYSTATHIONINE-BETA-SYNTHASE-RXN	4.2.1.22	cystathionine beta-synthase	No Evidence Code
+PWY-821-1	YAL012W		CYS3	CYSTAGLY-RXN	4.4.1.1	cystathionine gamma-lyase	No Evidence Code
+PWY-821-1	YJR130C		STR2	RXN-721	No EC#	cystathionine gamma-synthase	No Evidence Code
+PWY-821-1	YGL184C		STR3	CYSTATHIONINE-BETA-LYASE-RXN	4.4.1.13	cystathionine beta-lyase	No Evidence Code
+PWY-821-1	YER091C		MET6	HOMOCYSMET-RXN	2.1.1.14	N5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase	No Evidence Code
+PWY-821-1	YDR502C		SAM2	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY-821-1	YLR180W		SAM1	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY3O-5268	YGL055W		OLE1	1.14.19.1-RXN	1.14.19.1	stearoyl-CoA 9-desaturase	EV-EXP
+PWY3O-6407	G3O-4104		SCT1	RXN3O-5279	2.3.1.42	dihydroxyacetone phosphate acyltransferase	No Evidence Code
+PWY3O-6407	YKR067W		GPT2	RXN3O-5279	2.3.1.42	dihydroxyacetone phosphate acyltransferase	No Evidence Code
+PWY3O-6407	YIL124W		AYR1	RXN3O-9800	1.1.1.101	1-acyl-dihydroxyacetone-phosphate	No Evidence Code
+PWY3O-6407	YDL052C		SLC1	RXN-1623	2.3.1.51	1-acyl-sn-glycerol-3-phosphate acyl transferase	No Evidence Code
+PWY3O-259	YDR147W		EKI1	ETHANOLAMINE-KINASE-RXN	2.7.1.82	ethanolamine kinase	No Evidence Code
+PWY3O-259	YGR007W		ECT1	2.7.7.14-RXN	2.7.7.14	phosphoethanolamine cytidyltransferase	No Evidence Code
+PWY3O-259	YHR123W		EPT1	ETHANOLAMINEPHOSPHOTRANSFERASE-RXN	2.7.8.1	ethanolaminephosphotransferase	No Evidence Code
+PWY3O-6499	YOL059W		GPD2	1.1.1.8-RXN	1.1.1.8	glycerol-3-phosphate dehydrogenase (NAD+)	No Evidence Code
+PWY3O-6499	YDL022W		GPD1	1.1.1.8-RXN	1.1.1.8	glycerol 3-phosphate dehydrogenase	No Evidence Code
+PWY3O-6499	G3O-4104		SCT1	GLYCEROL-3-P-ACYLTRANSFER-RXN	2.3.1.15	glycerol-3-phosphate-O-acyltransferase	No Evidence Code
+PWY3O-6499	YKR067W		GPT2	GLYCEROL-3-P-ACYLTRANSFER-RXN	2.3.1.15	glycerol-3-phosphate-O-acyltransferase	No Evidence Code
+PWY3O-6499	YDL052C		SLC1	RXN-1623	2.3.1.51	1-acyl-sn-glycerol-3-phosphate acyl transferase	No Evidence Code
+PWY3O-3	YPR113W		PIS1	2.7.8.11-RXN	2.7.8.11	phosphatidylinositol synthase	No Evidence Code
+PWY3O-242	YDR208W		MSS4	2.7.1.68-RXN	2.7.1.68	phosphatidylinositol 4-phosphate kinase	No Evidence Code
+PWY3O-242	G3O-70		INP53	PHOSPHATIDYLINOSITOL-BISPHOSPHATASE-RXN	3.1.3.36	phosphatidylinositol 4,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-65		INP52	PHOSPHATIDYLINOSITOL-BISPHOSPHATASE-RXN	3.1.3.36	phosphatidylinositol 4,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-80		INP51	PHOSPHATIDYLINOSITOL-BISPHOSPHATASE-RXN	3.1.3.36	phosphatidylinositol 4,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-85		INP54	PHOSPHATIDYLINOSITOL-BISPHOSPHATASE-RXN	3.1.3.36	phosphatidylinositol 4,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-60		SAC1	RXN-10961	3.1.3.-	phosphatidylinositol 4-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-65		INP52	RXN-10961	3.1.3.-	phosphatidylinositol 4-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-70		INP53	RXN-10961	3.1.3.-	phosphatidylinositol 4-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-356		STT4	1-PHOSPHATIDYLINOSITOL-KINASE-RXN	2.7.1.67	phosphatidylinositol 4-kinase	No Evidence Code
+PWY3O-242	G3O-343		LSB6	1-PHOSPHATIDYLINOSITOL-KINASE-RXN	2.7.1.67	phosphatidylinositol 4-kinase	No Evidence Code
+PWY3O-242	YNL267W		PIK1	1-PHOSPHATIDYLINOSITOL-KINASE-RXN	2.7.1.67	phosphatidylinositol 4-kinase	No Evidence Code
+PWY3O-242	YFR019W		FAB1	2.7.1.150-RXN	2.7.1.150	phoshatidylinositol-3-phosphate 5-kinase	No Evidence Code
+PWY3O-242	G3O-91		FIG4	RXN-10938	3.1.3.-	phosphatidylinositol 3,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-60		SAC1	RXN-10938	3.1.3.-	phosphatidylinositol 3,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-65		INP52	RXN-10938	3.1.3.-	phosphatidylinositol 3,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-70		INP53	RXN-10938	3.1.3.-	phosphatidylinositol 3,5-bisphosphate 5-phosphatase	No Evidence Code
+PWY3O-242	G3O-75		YMR1	RXN3O-364	3.1.3.64	phosphatidylinositol 3-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-70		INP53	RXN3O-364	3.1.3.64	phosphatidylinositol 3-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-65		INP52	RXN3O-364	3.1.3.64	phosphatidylinositol 3-phosphate phosphatase	No Evidence Code
+PWY3O-242	G3O-60		SAC1	RXN3O-364	3.1.3.64	phosphatidylinositol 3-phosphate phosphatase	No Evidence Code
+PWY3O-242	YLR240W		VPS34	1-PHOSPHATIDYLINOSITOL-3-KINASE-RXN	2.7.1.137	phosphatidylinositol 3-kinase	No Evidence Code
+PWY-5194-1	G3O-46		MET1	RXN-13403	2.1.1.107	uroporphyrinogen-III C-methyltransferase	No Evidence Code
+PWY-5194-1	G3O-105		MET8	DIMETHUROPORDEHYDROG-RXN	1.3.1.76	precorrin-2 dehydrogenase	No Evidence Code
+PWY-5194-1	G3O-105		MET8	SIROHEME-FERROCHELAT-RXN	4.99.1.4	ferrochelatase	No Evidence Code
+PWY3O-19	YNR041C		COQ2	RXN-9003	2.5.1.39	hexaprenyl-diphosphate hexaprenyltransferase	No Evidence Code
+PWY3O-19	YGR255C		COQ6	RXN3O-58	1.14.15.-	3-hexaprenyl-benzoate-5-monoxygenase	No Evidence Code
+PWY3O-19	YOL096C		COQ3	2.1.1.114-RXN	2.1.1.114	3,4-dihydroxy-5-hexaprenylbenzoate methyltransferase	No Evidence Code
+PWY3O-19	YGR255C		COQ6	RXN3O-12	1.14.13.-	monooxygenase	No Evidence Code
+PWY3O-19	YML110C		COQ5	RXN3O-54	2.1.1.201	C-methyltransferase	No Evidence Code
+PWY3O-19	YOR125C		CAT5	RXN3O-75	1.14.99.60	monooxygenase	No Evidence Code
+PWY3O-19	YOL096C		COQ3	RXN3O-102	2.1.1.64	O-methyltransferase	No Evidence Code
+PWY-6123-1	YOR128C		ADE2	AIRCARBOXY-RXN	4.1.1.21	phosphoribosylamino-imidazole-carboxylase	No Evidence Code
+PWY-6123-1	YAR015W		ADE1	SAICARSYN-RXN	6.3.2.6	phosphoribosyl amino imidazolesuccinocarbozamide synthetase	No Evidence Code
+PWY-6123-1	YLR359W		ADE13	AICARSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+PWY-6123-1	YMR120C		ADE17	AICARTRANSFORM-RXN	2.1.2.3	5-aminoimidazole-4-carboxamide ribonucleotide transformylase	No Evidence Code
+PWY-6123-1	YLR028C		ADE16	AICARTRANSFORM-RXN	2.1.2.3	5-aminoimidazole-4-carboxamide ribonucleotide transformylase	No Evidence Code
+PWY-6123-1	YMR120C		ADE17	IMPCYCLOHYDROLASE-RXN	3.5.4.10	inosine monophosphate cyclohydrolase	No Evidence Code
+PWY-6123-1	YLR028C		ADE16	IMPCYCLOHYDROLASE-RXN	3.5.4.10	inosine monophosphate cyclohydrolase	No Evidence Code
+PWY0-662	YOL061W		PRS5	PRPPSYN-RXN	2.7.6.1	phosphoribosylpyrophosphate synthetase	No Evidence Code
+PWY0-662	YKL181W		PRS1	PRPPSYN-RXN	2.7.6.1	ribose-phosphate pyrophosphokinase	No Evidence Code
+PWY0-662	YHL011C		PRS3	PRPPSYN-RXN	2.7.6.1	ribose-phosphate pyrophosphokinase	No Evidence Code
+PWY0-662	YER099C		PRS2	PRPPSYN-RXN	2.7.6.1	ribose-phosphate pyrophosphokinase	No Evidence Code
+PWY0-662	YBL068W		PRS4	PRPPSYN-RXN	2.7.6.1	ribose-phosphate pyrophosphokinase	No Evidence Code
+PWY3O-450	YLR133W		CKI1	CHOLINE-KINASE-RXN	2.7.1.32	choline kinase	No Evidence Code
+PWY3O-450	YGR202C		PCT1	2.7.7.15-RXN	2.7.7.15	phosphorylcholine transferase	No Evidence Code
+PWY3O-450	YNL130C		CPT1	RXN-5781	2.7.8.2	sn-1,2-diacylglycerol cholinephosphotransferase	No Evidence Code
+PWY-7219	YNL220W		ADE12	ADENYLOSUCCINATE-SYNTHASE-RXN	6.3.4.4	adenylosuccinate synthetase	No Evidence Code
+PWY-7219	YLR359W		ADE13	AMPSYN-RXN	4.3.2.2	adenylosuccinate lyase	No Evidence Code
+PWY-7219	YER170W		ADK2	ADENYL-KIN-RXN	2.7.4.3	mitochondrial GTP:AMP phosphotransferase	No Evidence Code
+PWY-7219	YDR226W		ADK1	ADENYL-KIN-RXN	2.7.4.3	adenylate kinase	No Evidence Code
+PWY-5651	YJR078W		BNA2	RXN-8665	1.13.11.11/1.13.11.52	Tryptophan 2,3-dioxygenase	No Evidence Code
+PWY-5651	YDR428C		BNA7	ARYLFORMAMIDASE-RXN	3.5.1.9	Arylformamidase	No Evidence Code
+PWY-5651	YJL060W		BNA3	ARYLFORMAMIDASE-RXN	3.5.1.9	arylformamidase	No Evidence Code
+PWY-5651	YBL098W		BNA4	KYNURENINE-3-MONOOXYGENASE-RXN	1.14.13.9	Kynurenine 3-mono oxygenase	No Evidence Code
+PWY-5651	YLR231C		BNA5	3-HYDROXY-KYNURENINASE-RXN	3.7.1.3	Kynureninase	No Evidence Code
+PWY-5651	YJR025C		BNA1	1.13.11.6-RXN	1.13.11.6	3-hydroxyanthranilic acid dioxygenase	No Evidence Code
+PWY-7221	YML056C		IMD4	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-7221	YLR432W		IMD3	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-7221	YHR216W		IMD2	IMP-DEHYDROG-RXN	1.1.1.205	IMP dehydrogenase	No Evidence Code
+PWY-7221	YMR217W		GUA1	GMP-SYN-GLUT-RXN	6.3.5.2	GMP synthase	No Evidence Code
+PWY-7221	YDR454C		GUK1	GUANYL-KIN-RXN	2.7.4.8	guanylate kinase	No Evidence Code
+PWY-7221	YKL067W		YNK1	GDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-214	YGL202W		ARO8	TRYPTOPHAN-AMINOTRANSFERASE-RXN	2.6.1.27	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-214	YHR137W		ARO9	2.6.1.28-RXN	2.6.1.28	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-214	YDR380W		ARO10	4.1.1.74-RXN	4.1.1.74	decarboxylase	No Evidence Code
+PWY3O-214	YGR087C		PDC6	4.1.1.74-RXN	4.1.1.74	decarboxylase	No Evidence Code
+PWY3O-214	YLR134W		PDC5	4.1.1.74-RXN	4.1.1.74	decarboxylase	No Evidence Code
+PWY3O-214	YLR044C		PDC1	4.1.1.74-RXN	4.1.1.74	decarboxylase	No Evidence Code
+PWY3O-214	YOL086C		ADH1	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-214	YMR303C		ADH2	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-214	YMR083W		ADH3	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-214	YGL256W		ADH4	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-214	YBR145W		ADH5	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-214	YDL168W		SFA1	1.1.1.190-RXN	1.1.1.190	alcohol dehydrogenase	No Evidence Code
+PWY3O-5	YGR194C		XKS1	XYLULOKIN-RXN	2.7.1.17	xylulokinase	EV-EXP
+PWY3O-50	YDR232W		HEM1	5-AMINOLEVULINIC-ACID-SYNTHASE-RXN	2.3.1.37	5-aminolevulinate synthase	No Evidence Code
+PWY3O-50	YGL040C		HEM2	PORPHOBILSYNTH-RXN	4.2.1.24	delta-aminolevulinate dehydratase	No Evidence Code
+PWY3O-50	YDL205C		HEM3	OHMETHYLBILANESYN-RXN	2.5.1.61	porphobilinogen deaminase	No Evidence Code
+PWY3O-50	YOR278W		HEM4	UROGENIIISYN-RXN	4.2.1.75	uroporphyrinogen III synthase	No Evidence Code
+PWY3O-0	YFR053C		HXK1	RXN3O-9790	2.7.1.4	fructokinase	No Evidence Code
+PWY3O-0	YGL253W		HXK2	RXN3O-9790	2.7.1.4	fructokinase	No Evidence Code
+PWY3O-70	YLR307W		CDA1	CHITIN-DEACETYLASE-RXN	3.5.1.41	chitin deacetylase	No Evidence Code
+PWY3O-70	YLR308W		CDA2	CHITIN-DEACETYLASE-RXN	3.5.1.41	chitin deacetylase	No Evidence Code
+PWY3O-15	YNL192W		CHS1	CHITIN-SYNTHASE-RXN	2.4.1.16	chitin synthase 1	No Evidence Code
+PWY3O-15	YBR023C		CHS3	CHITIN-SYNTHASE-RXN	2.4.1.16	chitin synthase 3	No Evidence Code
+PWY3O-15	YBR038W		CHS2	CHITIN-SYNTHASE-RXN	2.4.1.16	chitin synthase 2	No Evidence Code
+PWY3O-4109	YJR148W		BAT2	BRANCHED-CHAINAMINOTRANSFERILEU-RXN	2.6.1.42	branched-chain amino acid transaminase	No Evidence Code
+PWY3O-4109	YHR208W		BAT1	BRANCHED-CHAINAMINOTRANSFERILEU-RXN	2.6.1.42	branched-chain amino acid aminotransferase	No Evidence Code
+PWY3O-4109	YDL080C		THI3	4.1.1.72-RXN	4.1.1.72	decarboxylase	No Evidence Code
+PWY3O-4109	YDR380W		ARO10	4.1.1.72-RXN	4.1.1.72	decarboxylase	No Evidence Code
+PWY3O-4109	YLR044C		PDC1	4.1.1.72-RXN	4.1.1.72	decarboxylase	No Evidence Code
+PWY3O-4109	YLR134W		PDC5	4.1.1.72-RXN	4.1.1.72	decarboxylase	No Evidence Code
+PWY3O-4109	YGR087C		PDC6	4.1.1.72-RXN	4.1.1.72	decarboxylase	No Evidence Code
+PWY3O-4109	YDL168W		SFA1	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4109	YBR145W		ADH5	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4109	YGL256W		ADH4	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4109	YMR083W		ADH3	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4109	YMR303C		ADH2	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4109	YOL086C		ADH1	RXN3O-4117	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-1743	YCL040W		GLK1	RXN3O-9791	2.7.1.1	mannokinase	No Evidence Code
+PWY3O-1743	YGL253W		HXK2	RXN3O-9791	2.7.1.1	mannokinase	No Evidence Code
+PWY3O-1743	YFR053C		HXK1	RXN3O-9791	2.7.1.1	mannokinase	No Evidence Code
+PWY3O-1743	YER003C		PMI40	MANNPISOM-RXN	5.3.1.8	mannose-6-phosphate isomerase	No Evidence Code
+PWY-781	YJR010W		MET3	SULFATE-ADENYLYLTRANS-RXN	2.7.7.4	ATP sulfurylase	No Evidence Code
+PWY-781	YKL001C		MET14	ADENYLYLSULFKIN-RXN	2.7.1.25	adenylylsulfate kinase	No Evidence Code
+PWY-781	YPR167C		MET16	1.8.4.8-RXN	1.8.4.8	PAPS reductase	No Evidence Code
+PWY-781	YFR030W		MET10	SULFITE-REDUCT-RXN	1.8.1.2	sulfite reductase (NADPH)	No Evidence Code
+PWY-781	YJR137C		MET5	SULFITE-REDUCT-RXN	1.8.1.2	sulfite reductase (NADPH)	No Evidence Code
+PWYQT-4432	YLR299W		ECM38	RXN-6601	2.3.2.2	gamma-glutamyltransferase	No Evidence Code
+PWYQT-4432	G3O-2		DUG1	RXN-6622	3.4.13.18	Cys-Gly metallodipeptidase	EV-EXP
+PWY3O-4108	YGL202W		ARO8	TYROSINE-AMINOTRANSFERASE-RXN	2.6.1.5/2.6.1.27/2.6.1.57	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4108	YHR137W		ARO9	RXN3O-4157	2.6.1.58	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4108	YGR087C		PDC6	4.1.1.80-RXN	4.1.1.80	pyruvate decarboxylase	No Evidence Code
+PWY3O-4108	YLR134W		PDC5	4.1.1.80-RXN	4.1.1.80	pyruvate decarboxylase	No Evidence Code
+PWY3O-4108	YLR044C		PDC1	4.1.1.80-RXN	4.1.1.80	pyruvate decarboxylase	No Evidence Code
+PWY3O-4108	YOL086C		ADH1	RXN3O-4113	1.1.1.1	alcohol dehydrogenase I	No Evidence Code
+PWY3O-4108	YMR303C		ADH2	RXN3O-4113	1.1.1.1	alcohol dehydrogenase II	No Evidence Code
+PWY3O-4108	YMR083W		ADH3	RXN3O-4113	1.1.1.1	alcohol dehydrogenase III	No Evidence Code
+PWY3O-4108	YGL256W		ADH4	RXN3O-4113	1.1.1.1	alcohol dehydrogenase IV	No Evidence Code
+PWY3O-4108	YBR145W		ADH5	RXN3O-4113	1.1.1.1	alcohol dehydrogenase V	No Evidence Code
+PWY3O-4115	YHR137W		ARO9	2.6.1.58-RXN	2.6.1.58	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4115	YIL116W		HIS5	RXN-10814	2.6.1.1/2.6.1.9/2.6.1.27/2.6.1.57	histidinol-phosphate aminotransferase	No Evidence Code
+PWY3O-4115	YGL202W		ARO8	RXN-10814	2.6.1.1/2.6.1.9/2.6.1.27/2.6.1.57	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4115	YDR380W		ARO10	PHENYLPYRUVATE-DECARBOXYLASE-RXN	4.1.1.43/4.1.1.-	decarboxylase	No Evidence Code
+PWY3O-4115	YGR087C		PDC6	PHENYLPYRUVATE-DECARBOXYLASE-RXN	4.1.1.43/4.1.1.-	decarboxylase	No Evidence Code
+PWY3O-4115	YLR134W		PDC5	PHENYLPYRUVATE-DECARBOXYLASE-RXN	4.1.1.43/4.1.1.-	decarboxylase	No Evidence Code
+PWY3O-4115	YLR044C		PDC1	PHENYLPYRUVATE-DECARBOXYLASE-RXN	4.1.1.43/4.1.1.-	decarboxylase	No Evidence Code
+PWY3O-4115	YDL168W		SFA1	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4115	YBR145W		ADH5	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4115	YGL256W		ADH4	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4115	YMR083W		ADH3	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4115	YMR303C		ADH2	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4115	YOL086C		ADH1	RXN3O-163	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4153	YPR060C		ARO7	CHORISMATEMUT-RXN	5.4.99.5	chorismate mutase	No Evidence Code
+PWY3O-4153	YNL316C		PHA2	PREPHENATEDEHYDRAT-RXN	4.2.1.51	prephenate dehydratase	No Evidence Code
+PWY3O-4153	YGL202W		ARO8	RXN-10814	2.6.1.1/2.6.1.9/2.6.1.27/2.6.1.57	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4153	YHR137W		ARO9	2.6.1.58-RXN	2.6.1.58	aromatic amino acid aminotransferase	No Evidence Code
+PWY-5686-1	YJL130C		URA2	CARBPSYN-RXN	6.3.5.5	carbamyl phosphate synthase	No Evidence Code
+PWY-5686-1	YJL130C		URA2	ASPCARBTRANS-RXN	2.1.3.2	aspartate transcarbamylase	No Evidence Code
+PWY-5686-1	YLR420W		URA4	DIHYDROOROT-RXN	3.5.2.3	dihydrooratase	No Evidence Code
+PWY-5686-1	YKL216W		URA1	RXN-9929	1.3.98.1	dihydroorotate dehydrogenase, type 1A	No Evidence Code
+PWY-5686-1	YML106W		URA5	OROPRIBTRANS-RXN	2.4.2.10	orotate phosphoribosyltransferase	No Evidence Code
+PWY-5686-1	YMR271C		URA10	OROPRIBTRANS-RXN	2.4.2.10	orotate phosphoribosyltransferase	No Evidence Code
+PWY-5686-1	YEL021W		URA3	OROTPDECARB-RXN	4.1.1.23	orotidine-5'-phosphate decarboxylase	No Evidence Code
+PWY3O-3827	YGL253W		HXK2	GLUCOKIN-RXN	2.7.1.1/2.7.1.2	glucokinase	No Evidence Code
+PWY3O-3827	YFR053C		HXK1	GLUCOKIN-RXN	2.7.1.1/2.7.1.2	glucokinase	No Evidence Code
+PWY3O-3827	YCL040W		GLK1	GLUCOKIN-RXN	2.7.1.1/2.7.1.2	glucokinase	No Evidence Code
+PWY3O-1565	YMR105C		PGM2	PHOSPHOGLUCMUT-RXN	5.4.2.2	phosphoglucomutase	No Evidence Code
+PWY3O-1565	YKL127W		PGM1	PHOSPHOGLUCMUT-RXN	5.4.2.2	phosphoglucomutase	No Evidence Code
+PWY3O-1565	YKL035W		UGP1	GLUC1PURIDYLTRANS-RXN	2.7.7.9/2.7.7.64	uridinephosphoglucose pyrophosphorylase	No Evidence Code
+PWY3O-1565	YHL012W			GLUC1PURIDYLTRANS-RXN	2.7.7.9/2.7.7.64	UTP glucose-1-phosphate uridylyltransferase	No Evidence Code
+PWY3O-1565	YPL227C		ALG5	2.4.1.117-RXN	2.4.1.117	UDP-glucose:dolichyl-phosphate glucosyltransferase	No Evidence Code
+PWY3O-123	YER003C		PMI40	MANNPISOM-RXN	5.3.1.8	mannose-6-phosphate isomerase	No Evidence Code
+PWY3O-123	YFL045C		SEC53	PHOSMANMUT-RXN	5.4.2.8	phosphomannomutase	No Evidence Code
+PWY3O-123	YDL055C		PSA1	MANNPGUANYLTRANGDP-RXN	2.7.7.22	mannose-1-phosphate guanylyltransferase	No Evidence Code
+PWY3O-123	YPR183W		DPM1	2.4.1.83-RXN	2.4.1.83	dolichol phosphate mannose synthase	No Evidence Code
+PWY-5697	YIR027C		DAL1	ALLANTOINASE-RXN	3.5.2.5	allantoinase	No Evidence Code
+PWY-5697	YIR029W		DAL2	ALLANTOICASE-RXN	3.5.3.4	allantoicase	No Evidence Code
+PWY3O-8514	YPL231W		FAS2	RXN-9539	2.3.1.41/2.3.1.179	beta-ketopalmitoyl-[acp] synthase	EV-EXP
+PWY3O-8514	YKL055C		OAR1	RXN-9540	1.1.1.100/2.3.1.85/2.3.1.86	3-oxoacyl-[acyl-carrier-protein] reductase	No Evidence Code
+PWY3O-8514	YPL231W		FAS2	RXN-9540	1.1.1.100/2.3.1.85/2.3.1.86	beta-ketoacyl-ACP reductase	EV-EXP
+PWY3O-8514	YKL182W		FAS1	4.2.1.61-RXN	2.3.1.85/2.3.1.86/4.2.1.59	3-hydroxypalmitoyl-[acp] dehydratase	EV-EXP
+PWY3O-8514	YKL182W		FAS1	RXN-9542	1.3.1.10/1.3.1.39/2.3.1.85/2.3.1.86	hexadecenoyl-[acp] reductase	EV-EXP
+PWY3O-8514	YKL182W		FAS1	RXN3O-9780	2.3.1.-	palmitoyl transferase	EV-EXP
+PWY-5177	G3O-33		PHS1	RXN-11667	4.2.1.150	3-hydroxyacyl-CoA dehydratase	No Evidence Code
+PWY-5177	YKR009C		FOX2	RXN-11667	4.2.1.150	enoyl-CoA hydratase	No Evidence Code
+PWY-5177	YKR009C		FOX2	RXN-11662	1.1.1.35	3-hydroxyacyl-CoA dehydrogenase	No Evidence Code
+PWY-5177	YPL028W		ERG10	ACETYL-COA-ACETYLTRANSFER-RXN	2.3.1.9	acetoacetyl CoA thiolase	No Evidence Code
+PWY3O-1801	YGL055W		OLE1	RXN-10664	1.14.19.1	palmitoyl-CoA desaturase	EV-EXP
+PWY3O-1801	YJR019C		TES1	RXN-10662	3.1.2.-	Thioesterase	No Evidence Code
+PWY3O-6-1	G3O-31		ARA2	RXN3O-9797	1.1.1.116	D-arabinose dehydrogenase	No Evidence Code
+PWY3O-6-1	YBR149W		ARA1	RXN3O-9798	1.1.1.117	D-arabinose dehydrogenase	No Evidence Code
+PWY3O-6-1	YML086C		ALO1	1.1.3.37-RXN	1.1.3.37	D-arabinono-1,4-lactone oxidase	No Evidence Code
+PWY3O-8	YHR104W		GRE3	RXN-8773	1.1.1.21	xylose reductase	No Evidence Code
+PWY3O-8	YLR070C		XYL2	D-XYLULOSE-REDUCTASE-RXN	1.1.1.9	Xylitol dehydrogenase	No Evidence Code
+PWY-901	YML004C		GLO1	GLYOXI-RXN	4.4.1.5	glyoxalase I	No Evidence Code
+PWY-901	YOR040W		GLO4	GLYOXII-RXN	3.1.2.6	glyoxylase-II	No Evidence Code
+PWY-901	YDR272W		GLO2	GLYOXII-RXN	3.1.2.6	glyoxylase-II	No Evidence Code
+PWY3O-17	G3O-154		Thi4	RXN3O-401	No EC#	adenylated thiazole synthase	EV-EXP
+PWY3O-17	G3O-3904		THI13	RXN3O-9804	No EC#	hydroxymethylpyrimidine synthase	No Evidence Code
+PWY3O-17	G3O-154		Thi4	RXNQT-4301	No EC#	HET-P synthase	No Evidence Code
+PWY3O-17	G3O-76		THI21	OHMETPYRKIN-RXN	2.7.1.49	hydroxymethylpyrimidine (HMP) kinase	EV-EXP
+PWY3O-17	G3O-69		THI20	OHMETPYRKIN-RXN	2.7.1.49	HMP kinase	EV-EXP
+PWY3O-17	G3O-76		THI21	PYRIMSYN3-RXN	2.7.4.7	hydroxymethylpyrimidine phosphate (HMP-P) kinase	EV-EXP
+PWY3O-17	G3O-69		THI20	PYRIMSYN3-RXN	2.7.4.7	HMP-P kinase	EV-EXP
+PWY3O-17	YPL214C		THI6	THI-P-SYN-RXN	2.5.1.3	TMP diphosphorylase	EV-EXP
+PWY3O-17	YOR143C		THI80	THIAMIN-PYROPHOSPHOKINASE-RXN	2.7.6.2	thiamin pyrophosphokinase	EV-EXP
+PWY3O-402	YPL268W		PLC1	3.1.4.11-RXN	3.1.4.11	phosphoinositide-specific phospholipase C	No Evidence Code
+PWY3O-402	G3O-24		ARG82	2.7.1.127-RXN	2.7.1.127	inositol 1,4,5-trisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-24		ARG82	RXN-7184	2.7.1.151	inositol 1,3,4,5-tetrakisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-24		ARG82	2.7.1.151-RXN	2.7.1.151	inositol 1,4,5-trisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-24		ARG82	RXN-7162	2.7.1.151	inositol 1,4,5,6-tetrakisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-24		ARG82	RXN-4941	2.7.1.-	inositol-pentakisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-32		KCS1	RXN-4941	2.7.1.-	inositol-pentakisphosphate kinase	No Evidence Code
+PWY3O-402	YDR315C		IPK1	RXN-7163	2.7.1.158	inositol (1,3,4,5,6)-pentakisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-32		KCS1	2.7.1.152-RXN	2.7.4.21	inositol-hexakisphosphate kinase	No Evidence Code
+PWY3O-402	G3O-37		VIP1	RXN3O-143	2.7.4.24	diphosphoinositol-pentakisphosphate kinase	No Evidence Code
+PWY3O-402	YOR163W		DDP1	RXN3O-786	3.6.-.-	inositol pyrophosphate phosphatase	No Evidence Code
+PWY3O-402	YOR163W		DDP1	RXN3O-785	3.6.1.52	diphospho-inositol phosphatase	No Evidence Code
+PWY3O-402	G3O-37		VIP1	RXN3O-258	2.7.4.-	inositol hexakisphosphate kinase	No Evidence Code
+PWY-7176	YKL024C		URA6	RXN-12002	2.7.4.4/2.7.4.14/2.7.4.22	uridylate kinase	No Evidence Code
+PWY-7176	YJR103W		URA8	CTPSYN-RXN	6.3.4.2	CTP synthase	No Evidence Code
+PWY-7176	YBL039C		URA7	CTPSYN-RXN	6.3.4.2	CTP synthase	No Evidence Code
+PWY-5041	YDR502C		SAM2	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY-5041	YLR180W		SAM1	S-ADENMETSYN-RXN	2.5.1.6	S-adenosylmethionine synthetase	No Evidence Code
+PWY-5041	YER043C		SAH1	ADENOSYLHOMOCYSTEINASE-RXN	3.3.1.1	S-adenosyl-L-homocysteine hydrolase	No Evidence Code
+PWY-5041	YER091C		MET6	HOMOCYSMET-RXN	2.1.1.14	N5-methyltetrahydropteroyltriglutamate-homocysteine methyltransferase	No Evidence Code
+PWY3O-862	YJL167W		ERG20	GPPSYN-RXN	2.5.1.1	farnesyl diphosphate synthetase	No Evidence Code
+PWY3O-862	YJL167W		ERG20	FPPSYN-RXN	2.5.1.10	farnesyl diphosphate synthetase	No Evidence Code
+PWY3O-862	YPL069C		BTS1	FARNESYLTRANSTRANSFERASE-RXN	2.5.1.29	geranylgeranyl diphosphate synthase	No Evidence Code
+PWY3O-862	YBR003W		COQ1	RXN3O-9805	2.5.1.-	hexaprenyl diphosphate synthetase	No Evidence Code
+PWY3O-862	YNR041C		COQ2	RXN-9003	2.5.1.39	hexaprenyl-diphosphate hexaprenyltransferase	No Evidence Code
+PWY3O-862	YGR255C		COQ6	RXN3O-58	1.14.15.-	3-hexaprenyl-benzoate-5-monoxygenase	No Evidence Code
+PWY3O-862	YOL096C		COQ3	2.1.1.114-RXN	2.1.1.114	3,4-dihydroxy-5-hexaprenylbenzoate methyltransferase	No Evidence Code
+PWY3O-862	YGR255C		COQ6	RXN3O-12	1.14.13.-	monooxygenase	No Evidence Code
+PWY3O-862	YML110C		COQ5	RXN3O-54	2.1.1.201	C-methyltransferase	No Evidence Code
+PWY3O-862	YOR125C		CAT5	RXN3O-75	1.14.99.60	monooxygenase	No Evidence Code
+PWY3O-862	YOL096C		COQ3	RXN3O-102	2.1.1.64	O-methyltransferase	No Evidence Code
+PWY3O-4031	YMR105C		PGM2	PHOSPHOGLUCMUT-RXN	5.4.2.2	phosphoglucomutase	No Evidence Code
+PWY3O-4031	YKL127W		PGM1	PHOSPHOGLUCMUT-RXN	5.4.2.2	phosphoglucomutase	No Evidence Code
+PWY3O-4031	YKL035W		UGP1	GLUC1PURIDYLTRANS-RXN	2.7.7.9/2.7.7.64	uridinephosphoglucose pyrophosphorylase	No Evidence Code
+PWY3O-4031	YHL012W			GLUC1PURIDYLTRANS-RXN	2.7.7.9/2.7.7.64	UTP glucose-1-phosphate uridylyltransferase	No Evidence Code
+PWY3O-4031	YJL137C		GLG2	GLYCOGENIN-GLUCOSYLTRANSFERASE-RXN	2.4.1.186	glycogenin glucosyltransferase	No Evidence Code
+PWY3O-4031	YKR058W		GLG1	GLYCOGENIN-GLUCOSYLTRANSFERASE-RXN	2.4.1.186	glycogenin glucosyltransferase	No Evidence Code
+PWY3O-4031	YJL137C		GLG2	RXN-7667	2.4.1.186	glycogenin glucosyltransferase	No Evidence Code
+PWY3O-4031	YKR058W		GLG1	RXN-7667	2.4.1.186	glycogenin glucosyltransferase	No Evidence Code
+PWY3O-4031	YFR015C		GSY1	RXN-7668	2.4.1.11	glycogen synthase	No Evidence Code
+PWY3O-4031	YLR258W		GSY2	RXN-7668	2.4.1.11	glycogen synthase	No Evidence Code
+PWY3O-4031	YEL011W		GLC3	RXN-7669	2.4.1.18	1,4-glucan-6-(1,4-glucano)-transferase	No Evidence Code
+PWY3O-4	YML042W		CAT2	CARNITINE-O-ACETYLTRANSFERASE-RXN	2.3.1.7	peroxisomal carnitine O-acetyltransferase	No Evidence Code
+PWY3O-4	YER024W		YAT2	CARNITINE-O-ACETYLTRANSFERASE-RXN	2.3.1.7	cytosolic carnitine acetyltransferase	No Evidence Code
+PWY3O-4	YAR035W		YAT1	CARNITINE-O-ACETYLTRANSFERASE-RXN	2.3.1.7	outer mitochondrial carnitine acetyltransferase	No Evidence Code
+PWY3O-4	YML042W		CAT2	RXN3O-37	2.3.1.7	mitochondrial carnitine acetyltransferase	No Evidence Code
+PWY3O-188	YML120C		NDI1	RXN3O-165	1.6.5.3	NADH dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YHR001W-A	YHR001W-A	QCR10	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YGR183C		QCR9	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YJL166W		QCR8	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YDR529C		QCR7	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YFR033C		QCR6	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YPR191W		QCR2	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YBL045C		COR1	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YOR065W		CYT1	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YEL024W		RIP1	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	Q0105		COB	RXN3O-168	1.10.2.2	ubiquinol-cytochrome c reductase	No Evidence Code
+PWY3O-188	YGL191W		COX13	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YLR038C		COX12	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YDL067C		COX9	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YLR395C		COX8	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YMR256C		COX7	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YHR051W		COX6	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YNL052W		COX5A	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YGL187C		COX4	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	Q0275		COX3	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	Q0250		COX2	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	Q0045		COX1	RXN3O-9794	1.9.3.1	cytochrome c oxidase	No Evidence Code
+PWY3O-188	YDR178W		SDH4	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YKL141W		SDH3	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YLL041C		SDH2	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YJL045W			SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	minor succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YDR178W		SDH4	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YKL141W		SDH3	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YLL041C		SDH2	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY3O-188	YKL148C		SDH1	SUCC-FUM-OXRED-UBI-RXN	1.3.5.1	succinate dehydrogenase (ubiquinone)	No Evidence Code
+PWY-46	YKL184W		SPE1	ORNDECARBOX-RXN	4.1.1.17	ornithine decarboxylase	No Evidence Code
+PWY-5123	YPL117C		IDI1	IPPISOM-RXN	5.3.3.2	isopentenyl diphosphate:dimethylallyl diphosphate isomerase	No Evidence Code
+PWY-5123	YJL167W		ERG20	GPPSYN-RXN	2.5.1.1	farnesyl diphosphate synthetase	No Evidence Code
+PWY-5123	YJL167W		ERG20	FPPSYN-RXN	2.5.1.10	farnesyl diphosphate synthetase	No Evidence Code
+PWY3O-4120	YPR060C		ARO7	CHORISMATEMUT-RXN	5.4.99.5	chorismate mutase	No Evidence Code
+PWY3O-4120	YBR166C		TYR1	PREPHENATE-DEHYDROGENASE-NADP+-RXN	1.3.1.13	prephenate dehydrogenase (NADP+)	No Evidence Code
+PWY3O-4120	YGL202W		ARO8	TYROSINE-AMINOTRANSFERASE-RXN	2.6.1.5/2.6.1.27/2.6.1.57	aromatic amino acid aminotransferase	No Evidence Code
+PWY3O-4120	YHR137W		ARO9	RXN3O-4157	2.6.1.58	aromatic amino acid aminotransferase	No Evidence Code
+PWY-6122-1	YMR300C		ADE4	PRPPAMIDOTRANS-RXN	2.4.2.14	phosphoribosylpyrophosphate amidotransferase	No Evidence Code
+PWY-6122-1	YGL234W		ADE5,7	GLYRIBONUCSYN-RXN	6.3.4.13	phosphoribosylglycinamidine synthetase	No Evidence Code
+PWY-6122-1	YDR408C		ADE8	GART-RXN	2.1.2.2	glycinamide ribotide transformylase	No Evidence Code
+PWY-6122-1	YGR061C		ADE6	FGAMSYN-RXN	6.3.5.3	5'-phosphoribosylformyl glycinamidine synthetase	No Evidence Code
+PWY-6122-1	YGL234W		ADE5,7	AIRS-RXN	6.3.3.1	phopshoribosylaminoimidazole synthetase	No Evidence Code
+PWY3O-743	G3O-0		GUD1	GUANINE-DEAMINASE-RXN	3.5.4.3	guanine deaminase	EV-EXP
+PWY3O-743	YJR133W		XPT1	XANPRIBOSYLTRAN-RXN	2.4.2.22	xanthine phosphoribosyl transferase	No Evidence Code
+PWY3O-743	YDR399W		HPT1	GUANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY3O-2220	YML022W		APT1	ADENPRIBOSYLTRAN-RXN	2.4.2.7	adenine phosphoribosyltransferase	No Evidence Code
+PWY3O-2220	YLR209C		PNP1	INOPHOSPHOR-RXN	2.4.2.1	purine nucleoside phosphorylase	No Evidence Code
+PWY3O-2220	YJR105W		ADO1	ADENOSINE-KINASE-RXN	2.7.1.20	adenosine kinase	No Evidence Code
+PWY3O-2220	YML035C		AMD1	AMP-DEAMINASE-RXN	3.5.4.6/3.5.4.17	AMD1	No Evidence Code
+PWY3O-2220	YNL141W		AAH1	ADENINE-DEAMINASE-RXN	3.5.4.2	adenine aminohydrolase	No Evidence Code
+PWY3O-2220	YDR399W		HPT1	HYPOXANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY3O-1	YJR105W		ADO1	ADENOSINE-KINASE-RXN	2.7.1.20	adenosine kinase	No Evidence Code
+PWY3O-1	YML022W		APT1	ADENPRIBOSYLTRAN-RXN	2.4.2.7	adenine phosphoribosyltransferase	No Evidence Code
+PWY3O-1	YNL141W		AAH1	ADENINE-DEAMINASE-RXN	3.5.4.2	adenine aminohydrolase	No Evidence Code
+PWY3O-1	YDR399W		HPT1	GUANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY3O-1	YLR209C		PNP1	INOPHOSPHOR-RXN	2.4.2.1	purine nucleoside phosphorylase	No Evidence Code
+PWY3O-1	YML035C		AMD1	AMP-DEAMINASE-RXN	3.5.4.6/3.5.4.17	AMD1	No Evidence Code
+PWY3O-1	G3O-0		GUD1	GUANINE-DEAMINASE-RXN	3.5.4.3	guanine deaminase	EV-EXP
+PWY3O-1	YJR133W		XPT1	XANPRIBOSYLTRAN-RXN	2.4.2.22	xanthine phosphoribosyl transferase	No Evidence Code
+PWY3O-1	YDR399W		HPT1	HYPOXANPRIBOSYLTRAN-RXN	2.4.2.8	hypoxanthine guanine phosphoribosyltransferase	No Evidence Code
+PWY-5760-1	YMR020W		FMS1	RXN-9015	1.5.3.16/1.5.3.17	non-specific polyamine oxidase	No Evidence Code
+PWY-5760-1	YMR169C		ALD3	3-PROPANAL-DEHYDROGENASE-RXN	1.2.1.3	aldehyde dehydrogenase (stress inducible cytoplasmic)	No Evidence Code
+PWY-5760-1	YMR170C		ALD2	3-PROPANAL-DEHYDROGENASE-RXN	1.2.1.3	aldehyde dehydrogenase (stress inducible cytoplasmic)	No Evidence Code
+PWY-5344	YNL277W		MET2	HOMOSERINE-O-ACETYLTRANSFERASE-RXN	2.3.1.31	homoserine O-trans-acetylase	No Evidence Code
+PWY-5344	YLR303W		MET17	ACETYLHOMOSER-CYS-RXN	2.5.1.49	O-acetylhomoserine (thiol)-lyase	No Evidence Code
+PWY3O-4105	YJR148W		BAT2	BRANCHED-CHAINAMINOTRANSFERVAL-RXN	2.6.1.42	branched-chain amino acid transaminase	No Evidence Code
+PWY3O-4105	YHR208W		BAT1	BRANCHED-CHAINAMINOTRANSFERVAL-RXN	2.6.1.42	branched-chain amino acid aminotransferase	No Evidence Code
+PWY3O-4105	YGR087C		PDC6	RXN3O-4133	4.1.1.1	decarboxylase	No Evidence Code
+PWY3O-4105	YLR134W		PDC5	RXN3O-4133	4.1.1.1	decarboxylase	No Evidence Code
+PWY3O-4105	YLR044C		PDC1	RXN3O-4133	4.1.1.1	decarboxylase	No Evidence Code
+PWY3O-4105	YDL168W		SFA1	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4105	YBR145W		ADH5	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4105	YGL256W		ADH4	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4105	YMR083W		ADH3	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4105	YMR303C		ADH2	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4105	YOL086C		ADH1	RXN3O-4141	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY-2201	YBR084W		MIS1	FORMATETHFLIG-RXN	6.3.4.3	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY-2201	YGR204W		ADE3	FORMATETHFLIG-RXN	6.3.4.3	C1-tetrahydrofolate synthase	No Evidence Code
+PWY-2201	YLR058C		SHM2	GLYOHMETRANS-RXN	2.1.2.1	serine hydroxymethyltransferase	No Evidence Code
+PWY-2201	YBR263W		SHM1	GLYOHMETRANS-RXN	2.1.2.1	Serine hydroxymethyltransferase, mitochondrial	No Evidence Code
+PWY-2201	YGR204W		ADE3	METHYLENETHFDEHYDROG-NADP-RXN	1.5.1.5	tetrahydrofolate synthase	No Evidence Code
+PWY-2201	YBR084W		MIS1	METHYLENETHFDEHYDROG-NADP-RXN	1.5.1.5	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY-2201	YKR080W		MTD1	1.5.1.15-RXN	1.5.1.15	NAD-dependent 5,10-methylenetetrahydrafolate dehydrogenase	No Evidence Code
+PWY-2201	YER183C		FAU1	5-FORMYL-THF-CYCLO-LIGASE-RXN	6.3.3.2	5,10-methenyltetrahydrofolate synthetase	No Evidence Code
+PWY-2201	G3O-163		GCV3	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY-2201	YDR019C		GCV1	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY-2201	YMR189W		GCV2	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY-2201	YFL018C		LPD1	GCVMULTI-RXN	No EC#	glycine cleavage complex	No Evidence Code
+PWY-2201	YPL023C		MET12	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY-2201	YGL125W		MET13	1.5.1.20-RXN	1.5.1.20	methylenetetrahydrofolate reductase	No Evidence Code
+PWY-2201	YGR204W		ADE3	METHENYLTHFCYCLOHYDRO-RXN	3.5.4.9	tetrahydrofolate synthase	No Evidence Code
+PWY-2201	YBR084W		MIS1	METHENYLTHFCYCLOHYDRO-RXN	3.5.4.9	mitochondrial C1-tetrahydrofolate synthase	No Evidence Code
+PWY-922	YPL028W		ERG10	ACETYL-COA-ACETYLTRANSFER-RXN	2.3.1.9	acetoacetyl CoA thiolase	No Evidence Code
+PWY-922	YML126C		ERG13	HYDROXYMETHYLGLUTARYL-COA-SYNTHASE-RXN	2.3.3.10	3-hydroxy-3-methylglutaryl coenzyme A synthase	No Evidence Code
+PWY-922	YML075C		HMG1	1.1.1.34-RXN	1.1.1.34	3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA)	No Evidence Code
+PWY-922	YLR450W		HMG2	1.1.1.34-RXN	1.1.1.34	3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA)	No Evidence Code
+PWY-922	YMR208W		ERG12	MEVALONATE-KINASE-RXN	2.7.1.36	mevalonate kinase	No Evidence Code
+PWY-922	YMR220W		ERG8	PHOSPHOMEVALONATE-KINASE-RXN	2.7.4.2	phosphomevalonate kinase	No Evidence Code
+PWY-922	YNR043W		MVD1	DIPHOSPHOMEVALONTE-DECARBOXYLASE-RXN	4.1.1.33	mevalonate pyrophosphate decarboxylase	No Evidence Code
+PWY-922	YPL117C		IDI1	IPPISOM-RXN	5.3.3.2	isopentenyl diphosphate:dimethylallyl diphosphate isomerase	No Evidence Code
+PWY-1801-1	YDL168W		SFA1	RXN-2962	1.1.1.284	formaldehyde dehydrogenase	No Evidence Code
+PWY-1801-1	YJL068C			S-FORMYLGLUTATHIONE-HYDROLASE-RXN	3.1.2.12	S-formylglutathione hydrolase	No Evidence Code
+PWY-1801-1	YOR388C		FDH1	1.2.1.2-RXN	1.17.1.9	formate dehydrogenase	No Evidence Code
+PWY-5703	YBR208C		DUR1,2	UREA-CARBOXYLASE-RXN	6.3.4.6	urea carboxylase	No Evidence Code
+PWY-5703	YBR208C		DUR1,2	ALLOPHANATE-HYDROLASE-RXN	3.5.1.54	allophanate hydrolase	No Evidence Code
+PWY3O-440	YGR087C		PDC6	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR134W		PDC5	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR044C		PDC1	RXN-6161	4.1.1.1	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YGR087C		PDC6	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR134W		PDC5	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR044C		PDC1	RXN3O-470	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YGR087C		PDC6	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR134W		PDC5	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY3O-440	YLR044C		PDC1	RXN0-2022	No EC#	pyruvate decarboxylase	No Evidence Code
+PWY-7222-1	YER070W		RNR1	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7222-1	YJL026W		RNR2	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7222-1	YIL066C		RNR3	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7222-1	YGR180C		RNR4	GDPREDUCT-RXN	1.17.4.1	ribonucleotide reductase	No Evidence Code
+PWY-7222-1	YKL067W		YNK1	DGDPKIN-RXN	2.7.4.6	nucleoside diphosphate kinase	No Evidence Code
+PWY3O-230	YLR058C		SHM2	GLYOHMETRANS-RXN	2.1.2.1	serine hydroxymethyltransferase	No Evidence Code
+PWY3O-230	YBR263W		SHM1	GLYOHMETRANS-RXN	2.1.2.1	Serine hydroxymethyltransferase, mitochondrial	No Evidence Code
+PWY-5084	YIL125W		KGD1	2OXOGLUTDECARB-RXN	1.2.4.2	alpha-ketoglutarate dehydrogenase	No Evidence Code
+PWY-5084	YFL018C		LPD1	2OXOGLUTDECARB-RXN	1.2.4.2	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YIL125W		KGD1	2OXOGLUTDECARB-RXN	1.2.4.2	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YDR148C		KGD2	2OXOGLUTDECARB-RXN	1.2.4.2	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YDR148C		KGD2	RXN0-1147	2.3.1.61	dihydrolipoyl transsuccinylase	No Evidence Code
+PWY-5084	YFL018C		LPD1	RXN0-1147	2.3.1.61	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YIL125W		KGD1	RXN0-1147	2.3.1.61	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YDR148C		KGD2	RXN0-1147	2.3.1.61	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YFL018C		LPD1	RXN-7716	1.8.1.4	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YIL125W		KGD1	RXN-7716	1.8.1.4	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YDR148C		KGD2	RXN-7716	1.8.1.4	2-ketoglutarate dehydrogenase complex	No Evidence Code
+PWY-5084	YFL018C		LPD1	RXN-7716	1.8.1.4	dihydrolipoyl dehydrogenase	No Evidence Code
+PWY3O-4300	YMR303C		ADH2	ALCOHOL-DEHYDROG-RXN	1.1.1.1	alcohol dehydrogenase	No Evidence Code
+PWY3O-4300	YMR170C		ALD2	RXN66-3	1.2.1.3	acetaldehyde dehydrogenase	No Evidence Code
+PWY3O-4300	YLR153C		ACS2	ACETATE--COA-LIGASE-RXN	6.2.1.1	acetyl CoA synthetase	No Evidence Code
+PWY3O-4300	YAL054C		ACS1	ACETATE--COA-LIGASE-RXN	6.2.1.1	acetyl CoA synthetase	No Evidence Code

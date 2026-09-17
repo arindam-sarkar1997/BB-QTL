@@ -1,0 +1,44 @@
+CUDA available: True
+GPU count: 1
+
+GPU 0: NVIDIA B200
+  Total memory: 178.35 GiB
+  Free memory:  177.74 GiB
+  Used memory:  0.61 GiB
+  PyTorch allocated: 0.00 GiB
+  PyTorch reserved:  0.00 GiB
+number of available GPUs = 1
+[KeOps] Compiling cuda jit compiler engine ... OK
+[pyKeOps] Compiling nvrtc binder for python ... OK
+Loading yeast dataset
+Using all snps
+Finished loading
+number of pathways = 123
+number of genes in pathways = 355
+Using user-specified noise variance
+attempting to load alpha
+Restored alpha (mean cache).
+Model loaded successfully to cuda:0
+importing kernels
+Constructed gene vectors: 500/5190
+Constructed gene vectors: 1000/5190
+Constructed gene vectors: 1500/5190
+Constructed gene vectors: 2000/5190
+Constructed gene vectors: 2500/5190
+Constructed gene vectors: 3000/5190
+Constructed gene vectors: 3500/5190
+Constructed gene vectors: 4000/5190
+Constructed gene vectors: 4500/5190
+Constructed gene vectors: 5000/5190
+Calculated LD rows: 512/5190
+Calculated LD rows: 1024/5190
+Calculated LD rows: 1536/5190
+Calculated LD rows: 2048/5190
+Calculated LD rows: 2560/5190
+Calculated LD rows: 3072/5190
+Calculated LD rows: 3584/5190
+Calculated LD rows: 4096/5190
+Calculated LD rows: 4608/5190
+Calculated LD rows: 5120/5190
+Calculated LD rows: 5190/5190
+Stored 5190 x 5190 gene LD matrix (51.4 MB)
