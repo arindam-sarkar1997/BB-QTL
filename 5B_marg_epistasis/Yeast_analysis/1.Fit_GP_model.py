@@ -1,91 +1,85 @@
-pheno_name = '37C'
-prune_snps = False
-r2_threshold = None
-MAF_threshold = 0
-top_percent = 40
+"""Fit GP models for 37C or a selected FLU/PUL dose."""
 
-from pathlib import Path
-fig_path = '../figures/'
-result_path = '../results/yeast_analysis/'
-
-checkpoint_path = f'../model_checkpoints/{pheno_name}_r2_threshold={r2_threshold}_MAF_threshold={MAF_threshold}_top{top_percent}_percent/'
-Path(checkpoint_path).mkdir(parents=True, exist_ok=True)
-
-geno_path = "/orange/juannanzhou/MarginalEpistasis/data/"
-pheno_path = "/orange/juannanzhou/dryad_data/"
-
-
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import random
-import sys
-import importlib
+import argparse
 import gc
-
-
 import os
-os.environ['CUDA_PATH'] = '/apps/compilers/cuda/13.2.1' 
-
-import torch
-print(f"number of available GPUs = {torch.cuda.device_count()}")
-output_device = 'cuda:0'
-
-import vcme
-from vcme.functions import prepare_proteingym_data
-from vcme.utils import yeast_data, clear_gpu_mem, reload_obj, get_pathway_info
-from vcme.utils import tensor_scatter, read_marginal_results, get_gene_interval
-
-from epik.utils import encode_seqs, split_training_test
-
-import epikVC
-from epikVC.models import GPModel
-
-gc.collect()
-torch.cuda.empty_cache()
-
-data = yeast_data(geno_path, pheno_path, pheno_name, output_device, prune_snps=prune_snps, r2_threshold=r2_threshold, top_percent=top_percent, maf_threshold=MAF_threshold)
-
-A, L = data.A, data.L
-
-print(f"L = {L}")
-
-train_x, train_y, test_x, test_y, train_y_var = data.train_test_split(seed=666)
-print(f'train_x shape = {train_x.shape}')
+from pathlib import Path
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--env", choices=("37C", "FLU", "PUL"), default="37C")
+    parser.add_argument("--dose", help="Drug dose: FLU CON/QMIC/HMIC/FMIC or PUL CON/HMIC/FMIC/DMIC")
+    parser.add_argument("--device", default="cuda:0")
+    args = parser.parse_args()
 
-from epikVC.models import GPModel, make_GP_model, load_GP_model
-n_devices = 1
-d_max = L
-device = 'cuda:0'
-noise_variance = None
+    from yeast_inputs import DRUG_CONDITIONS
 
-# Epistatic model
-k_max = 8
-
-## custom noise
-
-GP = make_GP_model(train_x, train_y, A, L, d_max, k_max, log_lda=None, noise_variance=noise_variance, device='cuda:0')
-
-GP.fit_model(n_steps=200, learning_rate=0.1, mll=True)
-GP.fit_model(n_steps=40, learning_rate=0.1, mll=False)
-
-GP.get_alpha()
-GP.draw_pos_y(num_samples=100)
-GP.get_pos_beta()
-
-GP.save_checkpoint(checkpoint_path + f'GP_model_k={k_max}_top{top_percent}percent.model')
-del GP
-gc.collect()
-torch.cuda.empty_cache()
+    if args.env == "37C" and args.dose is not None:
+        parser.error("--dose is only valid for FLU or PUL")
+    if args.env in DRUG_CONDITIONS and args.dose not in DRUG_CONDITIONS[args.env]:
+        parser.error(f"--dose is required for {args.env}; choose from {DRUG_CONDITIONS[args.env]}")
+    return args
 
 
-# Additive model
-k_max = 1
-## custom noise
-GP = make_GP_model(train_x, train_y, A, L, d_max, k_max, log_lda=None, noise_variance=noise_variance, device='cuda:0')
+def main():
+    args = parse_args()
+    os.environ["CUDA_PATH"] = "/apps/compilers/cuda/13.2.1"
 
-GP.fit_model(n_steps=100, learning_rate=0.1, mll=True)
+    import torch
+    from epikVC.models import make_GP_model
+    from vcme.utils import yeast_data
+    from yeast_inputs import make_drug_yeast_data
 
-GP.save_checkpoint(checkpoint_path + f'GP_model_k={k_max}_top{top_percent}percent.model')
+    r2_threshold = None
+    maf_threshold = 0
+    top_percent = 40 if args.env == "37C" else 60
+    dataset_name = args.env if args.dose is None else f"{args.env}_{args.dose}"
+    checkpoint_path = Path(
+        f"../model_checkpoints/{dataset_name}_r2_threshold={r2_threshold}"
+        f"_MAF_threshold={maf_threshold}_top{top_percent}_percent"
+    )
+    checkpoint_path.mkdir(parents=True, exist_ok=True)
+
+    print(f"Training {dataset_name} on {args.device}; GPUs available: {torch.cuda.device_count()}")
+    if args.env == "37C":
+        data = yeast_data(
+            "/orange/juannanzhou/MarginalEpistasis/data/",
+            "/orange/juannanzhou/dryad_data/",
+            args.env,
+            args.device,
+            prune_snps=False,
+            r2_threshold=r2_threshold,
+            top_percent=top_percent,
+            maf_threshold=maf_threshold,
+        )
+    else:
+        data = make_drug_yeast_data(
+            args.env, args.dose, args.device,
+            prune_snps=False, r2_threshold=r2_threshold, maf_threshold=maf_threshold,
+        )
+
+    train_x, train_y, test_x, test_y, train_y_var = data.train_test_split(seed=666)
+    A, L = data.A, data.L
+    print(f"Samples: {len(data.y)}; loci: {L}; train: {len(train_y)}; test: {len(test_y)}")
+
+    k_max = 8
+    GP = make_GP_model(train_x, train_y, A, L, L, k_max, device=args.device)
+    GP.fit_model(n_steps=200, learning_rate=0.1, mll=True)
+    GP.fit_model(n_steps=40, learning_rate=0.1, mll=False)
+    GP.get_alpha()
+    GP.draw_pos_y(num_samples=100)
+    GP.get_pos_beta()
+    GP.save_checkpoint(str(checkpoint_path / f"GP_model_k={k_max}_top{top_percent}percent.model"))
+    del GP
+    gc.collect()
+    torch.cuda.empty_cache()
+
+    k_max = 1
+    GP = make_GP_model(train_x, train_y, A, L, L, k_max, device=args.device)
+    GP.fit_model(n_steps=100, learning_rate=0.1, mll=True)
+    GP.save_checkpoint(str(checkpoint_path / f"GP_model_k={k_max}_top{top_percent}percent.model"))
+
+
+if __name__ == "__main__":
+    main()
