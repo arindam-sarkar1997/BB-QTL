@@ -40,7 +40,7 @@ def main():
     pheno_name = '37C'
     
     
-    GP = load_GP_model(checkpoint_path + args.model_name)
+    GP = load_GP_model(str(Path(checkpoint_path) / args.model_name), device=output_device)
     train_x, train_y = GP.genos, GP.y
     log_lda = GP.get_lda()
     A, L = 2, int(train_x.shape[1]/2)
