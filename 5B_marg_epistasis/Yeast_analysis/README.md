@@ -25,3 +25,25 @@ sbatch 0_run_analyses_slurm.sh 37C
 FLU doses are `CON`, `QMIC`, `HMIC`, and `FMIC`. PUL doses are `CON`, `HMIC`,
 `FMIC`, and `DMIC`. Checkpoints and marginal output directories include the
 drug and dose so separate runs do not overwrite one another.
+
+## Posterior positional marginals
+
+After a dataset's `GP_model_k=8_top60percent.model` checkpoint exists, submit
+the posterior positional-marginal array from `Yeast_analysis`, for example:
+
+```bash
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh FLU CON
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh FLU QMIC
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh FLU HMIC
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh FLU FMIC
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh PUL CON
+sbatch 3.yeast_get_pos_marginals_batched-slurm.sh PUL HMIC
+```
+
+The array contains 100 tasks, one for each saved posterior beta sample, with at
+most 10 tasks running concurrently. Each task writes an effect CSV and a
+normalized CSV under
+`../results/yeast_analysis/<DRUG>_<DOSE>/posterior_marginals/`. The MAP estimate
+is not included because it is already represented by the step-2 marginal
+outputs. A submission fails early with a clear error if its checkpoint is
+missing; this currently prevents accidental submission of unfinished doses.

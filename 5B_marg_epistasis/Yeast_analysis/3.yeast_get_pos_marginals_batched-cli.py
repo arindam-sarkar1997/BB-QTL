@@ -1,91 +1,123 @@
-import os
+"""Calculate positional marginal effects for saved GP posterior beta samples."""
+
 import argparse
-import torch
-import numpy as np
-import pandas as pd
+import os
+from pathlib import Path
 
-# Set environment before other imports
-os.environ['CUDA_PATH'] = '/apps/compilers/cuda/13.2.1'
 
-import vcme
-from vcme.functions import prepare_proteingym_data
-from vcme.utils import yeast_data, clear_gpu_mem, reload_obj, get_pathway_info
-from vcme.utils import tensor_scatter, read_marginal_results, get_gene_interval
-from epik.utils import encode_seqs, split_training_test
-import epikVC
-from epikVC.models import GPModel, make_GP_model, load_GP_model
-from vcme.marginals import MargEpistasis
-from vcme.kernels import SiteMarginalKernel, EpKernel, seq_at_p, PathwayMarginalKernel
+# KeOps needs the cluster CUDA installation when the GPU modules are loaded.
+os.environ["CUDA_PATH"] = "/apps/compilers/cuda/13.2.1"
 
-def main():
-    # --- CLI Argument Parsing ---
-    parser = argparse.ArgumentParser(description="Run yeast marginal epistasis analysis.")
-    # Changed -i to accept a list of integers
-    parser.add_argument("-i", type=int, nargs='+', required=True, help="List of indices for the beta samples")
-    parser.add_argument("-k", type=int, required=True, help="The k-mer or order parameter")
-    parser.add_argument("-model_name", type=str, required=True, help="name of saved model")
-    parser.add_argument("-run_name", type=str, required=True, help="name for the run")    
-    parser.add_argument("--device", type=str, default="cuda:0", help="CUDA device (default: cuda:0)")
 
-    args = parser.parse_args()
-    indices = args.i  # This is now a list
-    k = args.k
-    output_device = args.device
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "-i", "--indices", type=int, nargs="+", required=True,
+        help="Zero-based posterior beta-sample indices",
+    )
+    parser.add_argument(
+        "-k", "--order", type=int, required=True,
+        help="Interaction order used for the positional marginal calculation",
+    )
+    parser.add_argument(
+        "--model-path", type=Path, required=True,
+        help="Path to a GP checkpoint containing beta_samples",
+    )
+    parser.add_argument(
+        "--out-path", type=Path, required=True,
+        help="Directory for the sample-level CSV outputs",
+    )
+    parser.add_argument(
+        "--run-name", required=True,
+        help="Dataset label used as the output filename prefix",
+    )
+    parser.add_argument("--device", default="cuda:0", help="Torch device (default: cuda:0)")
+    return parser.parse_args(argv)
 
-    print(f"Running samples i={indices}, k={k} on {output_device}")
-    print(f"Number of available GPUs = {torch.cuda.device_count()}")
 
-    # --- Paths ---
-    checkpoint_path = '../model_checkpoints/37C_r2_threshold=None_MAF_threshold=0_top40_percent/'
-    geno_path = "/orange/juannanzhou/MarginalEpistasis/data/"
-    pheno_path = "/orange/juannanzhou/dryad_data/"
-    out_path = '../results/yeast_analysis/' 
-    pheno_name = '37C'
-    
-    # Load data once outside the loop for efficiency
-    data = yeast_data(geno_path, pheno_path, pheno_name, output_device, prune_snps=True, r2_threshold=0.995, maf_threshold=0)
-    pruned_loci = data.loci_pruned
-    
-    GP = load_GP_model(checkpoint_path + args.model_name)
-    train_x, train_y = GP.genos, GP.y
-    log_lda = GP.get_lda()
-    A, L = 2, int(train_x.shape[1]/2)
-    print(f'L = {L}')
-    loci_candidate = list(range(L))
-    
-    # Prepend alpha to beta_samples
-    beta_samples = torch.cat((GP.alpha.unsqueeze(0), GP.beta_samples), dim=0)
-    
-    # Ensure output directory exists
-    if not os.path.exists(out_path):
-        os.makedirs(out_path)
+def main(argv=None):
+    args = parse_args(argv)
 
-    # --- Loop through the provided indices ---
-    for i in indices:
-        print(f"--- Processing sample index {i} ---")
-        
-        try:
-            beta = beta_samples[i]
-            
-            marg = MargEpistasis(A, L, train_x, train_y, beta, log_lda, chunk_size=10**10, beta_samples=None)
-            site_marg_df, site_marg_df_percent = marg.get_VC_positions(k, loci_candidate)    
+    import torch
+    from epikVC.models import load_GP_model
+    from vcme.marginals import MargEpistasis
 
-            site_marg_df.index = pruned_loci
-            site_marg_df_percent.index = pruned_loci
-            
-            # --- Save Results for index i ---
-            output_file = os.path.join(out_path, f"{args.run_name}_k={k}_sample_{i}.csv")
-            site_marg_df.to_csv(output_file)
+    if args.order < 1:
+        raise ValueError("--order must be a positive integer")
+    if len(set(args.indices)) != len(args.indices):
+        raise ValueError("Posterior sample indices must be unique")
+    if not args.model_path.is_file() or args.model_path.stat().st_size == 0:
+        raise FileNotFoundError(f"Checkpoint is missing or empty: {args.model_path}")
+    if args.device.startswith("cuda") and not torch.cuda.is_available():
+        raise RuntimeError(f"CUDA was requested but is unavailable: {args.device}")
 
-            output_file_pct = os.path.join(out_path, f"{args.run_name}_k={k}_sample_{i}_percent.csv")
-            site_marg_df_percent.to_csv(output_file_pct)
-            
-            print(f"Results for sample {i} saved successfully.")
-            
-        except IndexError:
-            print(f"Error: Index {i} is out of bounds for beta_samples.")
-        
-    print("All requested indices processed.")
+    print(f"Loading {args.model_path} on {args.device}")
+    gp = load_GP_model(str(args.model_path), device=args.device)
+    if not hasattr(gp, "beta_samples"):
+        raise ValueError(f"Checkpoint does not contain beta_samples: {args.model_path}")
+
+    beta_samples = gp.beta_samples
+    if beta_samples.ndim != 2 or len(beta_samples) == 0:
+        raise ValueError(f"Expected a nonempty 2-D beta_samples tensor; got {beta_samples.shape}")
+
+    invalid_indices = [i for i in args.indices if i < 0 or i >= len(beta_samples)]
+    if invalid_indices:
+        raise IndexError(
+            f"Posterior sample indices {invalid_indices} are outside 0-{len(beta_samples) - 1}"
+        )
+
+    train_x, train_y = gp.genos, gp.y
+    allele_count = int(gp.A)
+    locus_count = int(gp.L)
+    if train_x.ndim != 2 or train_x.shape[1] != allele_count * locus_count:
+        raise ValueError(
+            "Checkpoint genotype dimensions are inconsistent with its allele and locus counts"
+        )
+    if args.order > int(gp.k_max):
+        raise ValueError(f"--order {args.order} exceeds checkpoint k_max={gp.k_max}")
+
+    log_lda = gp.get_lda()
+    loci = list(range(locus_count))
+    args.out_path.mkdir(parents=True, exist_ok=True)
+
+    print(
+        f"Processing posterior samples {args.indices}; order={args.order}; "
+        f"loci={locus_count}; available samples={len(beta_samples)}"
+    )
+    for sample_index in args.indices:
+        beta = beta_samples[sample_index]
+        marg = MargEpistasis(
+            allele_count,
+            locus_count,
+            train_x,
+            train_y,
+            beta,
+            log_lda,
+            chunk_size=10**10,
+            beta_samples=None,
+        )
+        site_marginals, site_marginal_fractions = marg.get_VC_positions(args.order, loci)
+        site_marginals.index.name = "SNP"
+        site_marginals.name = "effect"
+        site_marginal_fractions.index.name = "SNP"
+        site_marginal_fractions.name = "fraction_of_order_variance"
+
+        output_file = args.out_path / (
+            f"{args.run_name}_k={args.order}_sample_{sample_index}.csv"
+        )
+        fraction_file = args.out_path / (
+            f"{args.run_name}_k={args.order}_sample_{sample_index}_percent.csv"
+        )
+        output_tmp = output_file.with_suffix(".csv.tmp")
+        fraction_tmp = fraction_file.with_suffix(".csv.tmp")
+        site_marginals.to_csv(output_tmp)
+        site_marginal_fractions.to_csv(fraction_tmp)
+        output_tmp.replace(output_file)
+        fraction_tmp.replace(fraction_file)
+        print(f"Saved posterior sample {sample_index}: {output_file} and {fraction_file}")
+
+    print("All requested posterior samples processed successfully.")
+
 
 if __name__ == "__main__":
     main()
